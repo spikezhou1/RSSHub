@@ -747,6 +747,9 @@
     "/codeforces/contests": [
         "Fatpandac"
     ],
+    "/comicskingdom/:name": [
+        "stjohnjohnson"
+    ],
     "/consumer/:category?/:language?/:keyword?": [
         "nczitzk"
     ],
@@ -3338,6 +3341,9 @@
     "/scmp/:category_id": [
         "proletarius101"
     ],
+    "/sctv/programme/:id?": [
+        "nczitzk"
+    ],
     "/scvtc/xygg": [
         "nczitzk"
     ],
@@ -5721,7 +5727,6 @@
     "/mofish/:id": [],
     "/mcdonalds/:category": [],
     "/gocomics/:name": [],
-    "/comicskingdom/:name": [],
     "/mediadigest/:range/:category?": [],
     "/ngd/:slug?": [],
     "/simpread/notice": [],
