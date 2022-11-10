@@ -6441,6 +6441,49 @@
         docs:"https://docs.rsshub.app/traditional-media.html#ri-ben-jing-ji-xin-wen",
         source:"/",
         target:"/nikkei/index" } ] },
+  "nintendo.com":{ _name:"Nintendo",
+    ".":[ { title:"直面会",
+        docs:"https://docs.rsshub.app/game.html#nintendo",
+        source:[ "/nintendo-direct/archive",
+          "/" ],
+        target:"/nintendo/direct" },
+      { title:"eShop 新发售游戏",
+        docs:"https://docs.rsshub.app/game.html#nintendo",
+        source:[ "/store/games",
+          "/" ],
+        target:"/nintendo/eshop/us" } ] },
+  "nintendo.com.hk":{ _name:"Nintendo",
+    ".":[ { title:"eShop 新发售游戏",
+        docs:"https://docs.rsshub.app/game.html#nintendo",
+        source:[ "/software/switch",
+          "/" ],
+        target:"/nintendo/eshop/hk" },
+      { title:"首页资讯（香港）",
+        docs:"https://docs.rsshub.app/game.html#nintendo",
+        source:[ "/topics",
+          "/" ],
+        target:"/nintendo/news" } ] },
+  "nintendo.co.jp":{ _name:"Nintendo",
+    ".":[ { title:"eShop 新发售游戏",
+        docs:"https://docs.rsshub.app/game.html#nintendo",
+        source:[ "/software/switch/index.html",
+          "/" ],
+        target:"/nintendo/eshop/jp" },
+      { title:"Switch 本体更新情报（日本）",
+        docs:"https://docs.rsshub.app/game.html#nintendo",
+        source:[ "/support/switch/system_update/index.html",
+          "/" ],
+        target:"/nintendo/system-update" } ] },
+  "nintendoswitch.com.cn":{ _name:"Nintendo",
+    ".":[ { title:"eShop 新发售游戏",
+        docs:"https://docs.rsshub.app/game.html#nintendo",
+        source:[ "/software",
+          "/" ],
+        target:"/nintendo/eshop/cn" },
+      { title:"首页资讯（中国）",
+        docs:"https://docs.rsshub.app/game.html#nintendo",
+        source:[ "/" ],
+        target:"/nintendo/news/china" } ] },
   "nippon.com":{ _name:"走进日本",
     www:[ { title:"政治外交",
         docs:"https://docs.rsshub.app/travel.html#zou-jin-ri-ben",
@@ -6662,6 +6705,11 @@
         source:[ "/Forum/timeline/id/:id",
           "/f/:id" ],
         target:"/nmbxd1/:id" } ] },
+  "nmtv.cn":{ _name:"内蒙古广播电视台",
+    ".":[ { title:"点播",
+        docs:"https://docs.rsshub.app/traditional-media.html#nei-meng-gu-guang-bo-dian-shi-tai-dian-bo",
+        source:[ "/" ],
+        target:(params, url) => `/nmtv/column/${new URL(url).toString.split(/\/folder/).pop()}` } ] },
   "nodejs.org":{ _name:"Node.js",
     ".":[ { title:"News",
         docs:"https://docs.rsshub.app/programming.html#nodejs-news",
@@ -7587,12 +7635,21 @@
           "/" ],
         target:"/samsung/research/blog" } ] },
   "saraba1st.com":{ _name:"Saraba1st",
-    bbs:[ { title:"帖子",
+    bbs:[ { title:"论坛",
         docs:"https://docs.rsshub.app/bbs.html#saraba1st",
         source:"/2b/:id",
         target:(params) => {
-                    const id = params.id.includes('thread') ? params.id.split('-')[1] : '';
-                    return id ? `/saraba1st/thread/${id}` : '';
+                    let id = params.id;
+                    // For Digest
+                    if (id.match('forum') !== null) {
+                        id = id.substring(0, id.length - 5);
+                        return `/saraba1st/digest/${id}`;
+                    }
+                    // For Thread
+                    else if (id.match('thread') !== null) {
+                        id = params.id.includes('thread') ? params.id.split('-')[1] : '';
+                        return id ? `/saraba1st/thread/${id}` : '';
+                    }
                 } } ] },
   "science.org":{ _name:"Science Magazine",
     ".":[ { title:"本期刊物",
