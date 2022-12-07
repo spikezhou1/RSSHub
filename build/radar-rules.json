@@ -5965,6 +5965,18 @@
       }
     ]
   },
+  "gz.gov.cn": {
+    "_name": "广州市人民政府",
+    "www": [
+      {
+        "title": "新闻",
+        "docs": "https://docs.rsshub.app/government.html#guang-zhou-shi-ren-min-zheng-fu",
+        "source": [
+          "/:channel/:category"
+        ]
+      }
+    ]
+  },
   "hebei.gov.cn": {
     "_name": "河北省人民政府",
     "czt": [
@@ -14330,6 +14342,29 @@
           "/"
         ],
         "target": "/shmeea/self-study"
+      }
+    ]
+  },
+  "shmtu.edu.cn": {
+    "_name": "上海海事大学",
+    "jwc": [
+      {
+        "title": "教务信息",
+        "docs": "https://docs.rsshub.app/university.html#shang-hai-dian-li-da-xue",
+        "source": [
+          "/:type"
+        ],
+        "target": "/shmtu/jwc/:type"
+      }
+    ],
+    "www": [
+      {
+        "title": "官网信息",
+        "docs": "https://docs.rsshub.app/university.html#shang-hai-dian-li-da-xue",
+        "source": [
+          "/:type"
+        ],
+        "target": "/shmtu/www/:type"
       }
     ]
   },

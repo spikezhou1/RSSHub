@@ -1615,6 +1615,12 @@
     "/gov/guangdong/tqyb/sncsyjxh": [
         "Fatpandac"
     ],
+    "/gov/gz/xw/:category": [
+        "drgnchan"
+    ],
+    "/gov/gz/zwgk/:category": [
+        "drgnchan"
+    ],
     "/gov/hebei/czt/xwdt/:category?": [
         "nczitzk"
     ],
@@ -3491,6 +3497,12 @@
     "/shmeea/self-study": [
         "h2ws"
     ],
+    "/shmtu/jwc/:type": [
+        "simonsmh"
+    ],
+    "/shmtu/www/:type": [
+        "simonsmh"
+    ],
     "/shopback/:store": [
         "nczitzk"
     ],
@@ -4788,8 +4800,6 @@
     "/lit/tw/:name?": [],
     "/thu/career": [],
     "/thu/:type": [],
-    "/shmtu/www/:type": [],
-    "/shmtu/jwc/:type": [],
     "/shou/www/:type": [],
     "/swust/jwc/news": [],
     "/swust/jwc/notice/:type?": [],
