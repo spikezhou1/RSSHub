@@ -2521,6 +2521,9 @@
     "/lativ/:id": [
         "Fatpandac"
     ],
+    "/layoffs/": [
+        "BrandNewLifeJackie26"
+    ],
     "/learnku/:community/:category?": [
         "kayw-geek"
     ],
@@ -3407,6 +3410,33 @@
     ],
     "/qm120/news/:category?": [
         "nczitzk"
+    ],
+    "/qoo-app/apps/:lang?/card/:id": [
+        "TonyRL"
+    ],
+    "/qoo-app/apps/:lang?/comment/:id": [
+        "TonyRL"
+    ],
+    "/qoo-app/apps/:lang?/note/:id": [
+        "TonyRL"
+    ],
+    "/qoo-app/apps/:lang?/post/:id": [
+        "TonyRL"
+    ],
+    "/qoo-app/notes/:lang?/note/:id": [
+        "TonyRL"
+    ],
+    "/qoo-app/notes/:lang?/topic/:topic": [
+        "TonyRL"
+    ],
+    "/qoo-app/notes/:lang?/user/:uid": [
+        "TonyRL"
+    ],
+    "/qoo-app/news/:lang?": [
+        "TonyRL"
+    ],
+    "/qoo-app/user/:lang?/appComment/:uid": [
+        "TonyRL"
     ],
     "/qq/ac/comic/:id": [
         "nczitzk"
@@ -4447,6 +4477,15 @@
     ],
     "/wizfile/updates": [
         "Fatpandac"
+    ],
+    "/wnacg/": [
+        "KenMizz"
+    ],
+    "/wnacg/category/:cid": [
+        "Gandum2077"
+    ],
+    "/wnacg/tag/:tag": [
+        "Gandum2077"
     ],
     "/worldjournal/:path*": [
         "TonyRL"
@@ -5667,8 +5706,6 @@
     "/ccnucs": [],
     "/ccnuwu": [],
     "/weexcn/news/:typeid": [],
-    "/ssmh": [],
-    "/ssmh/category/:cid": [],
     "/scnuyjs": [],
     "/scnucs": [],
     "/scutyjs": [],
