@@ -2510,6 +2510,11 @@
         source:[ "/",
           "/gre-advice/gre-vocabulary/which-words-study/most-common-gre-vocabulary-list-organized-difficulty" ],
         target:"/economist/gre-vocabulary" } ] },
+  "businessreview.global":{ _name:"The Economist",
+    ".":[ { title:"商论",
+        docs:"https://docs.rsshub.app/traditional-media.html#the-economist",
+        source:[ "/" ],
+        target:"/economist/global-business-review" } ] },
   "jxjy.ecust.edu.cn":{ _name:"华东理工继续教育学院",
     ".":[ { title:"新闻公告",
         docs:"https://docs.rsshub.app/university.html#hua-dong-li-gong-ji-xu-jiao-yu-xue-yuan",
@@ -3675,6 +3680,11 @@
         source:[ "/topic/post-list",
           "/" ],
         target:(params, url) => `/guancha/topic/${new URL(url).searchParams.get('topic_id')}/${new URL(url).searchParams.get('order')}` } ] },
+  "guandian.cn":{ _name:"观点网",
+    www:{ title:"资讯",
+      docs:"https://docs.rsshub.app/new-media.html#guan-dian-wang-zi-xun",
+      source:[ "/:category" ],
+      target:"/guandian/:category" } },
   "guangdiu.com":{ _name:"逛丢",
     ".":[ { title:"折扣",
         docs:"https://docs.rsshub.app/shopping.html#guang-diu",
@@ -5549,7 +5559,7 @@
         target:"/lativ/:id" } ] },
   "layoffs.fyi":{ _name:"Layoffs",
     ".":[ { title:"Data Tracker Feed",
-        docs:"https://docs.rsshub.app/other.html#layoffs",
+        docs:"https://docs.rsshub.app/en/other.html#layoffs-fyi",
         source:"/",
         target:"/layoffs" } ] },
   "learnku.com":{ _name:"Learn Ku 社区",
@@ -5638,6 +5648,20 @@
         docs:"https://docs.rsshub.app/new-media.html#line-today",
         source:[ "/" ],
         target:"/line/today/:edition?/:tab?" } ] },
+  "linkedin.com":{ _name:"linkedin",
+    ".":[ { title:"Job Listing",
+        docs:"https://docs.rsshub.app/en/other.html#linkedin-jobs",
+        source:"/jobs/search/",
+        target:(params, url) => {
+                    const searchParams = new URL(url).searchParams;
+                    const parseRoute = (searchParam) => {
+                        if (typeof searchParam !== 'string') {
+                            return 'all';
+                        }
+                        return searchParam.split(',').join('-');
+                    };
+                    return `/linkedin/jobs/${parseRoute(searchParams.get('f_JT'))}/${parseRoute(searchParams.get('f_E'))}/${searchParams.get('keywords') || ''}`;
+                } } ] },
   linkresearcher:{ _name:"领研",
     ".":[ { title:"论文",
         docs:"https://docs.rsshub.app/study.html#ling-yan",
