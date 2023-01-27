@@ -2163,6 +2163,11 @@
         docs:"https://docs.rsshub.app/programming.html#distill",
         source:[ "/" ],
         target:"/distill" } ] },
+  "dlsite.com":{ _name:"DLsite",
+    ".":[ { title:"当前日期发售的新产品",
+        docs:"https://docs.rsshub.app/anime.html#dlsite" },
+      { title:"产品打折信息",
+        docs:"https://docs.rsshub.app/anime.html#dlsite" } ] },
   "dmzj.com":{ _name:"动漫之家",
     news:[ { title:"宅新闻",
         docs:"https://docs.rsshub.app/anime.html#dong-man-zhi-jia",
@@ -3023,10 +3028,19 @@
         source:[ "/tag/:tag",
           "/" ],
         target:(params) => `/gelonghui/home${params.tag ? `/${params.tag}` : ''}` },
+      { title:"最热文章",
+        docs:"https://docs.rsshub.app/finance.html#ge-long-hui",
+        source:[ "/" ],
+        target:"/gelonghui/hot-article" },
       { title:"搜索关键字",
         docs:"https://docs.rsshub.app/finance.html#ge-long-hui",
         source:[ "/search" ],
         target:(_, url) => `/gelonghui/keyword/${new URL(url).searchParams.get('keyword')}` },
+      { title:"实时快讯",
+        docs:"https://docs.rsshub.app/finance.html#ge-long-hui",
+        source:[ "/live",
+          "/" ],
+        target:"/gelonghui/live" },
       { title:"主题文章",
         docs:"https://docs.rsshub.app/finance.html#ge-long-hui",
         source:[ "/subject/:id" ],
@@ -6217,6 +6231,31 @@
                     const id = matches ? matches[1] : params.id;
                     return `/mirror/${id}`;
                 } } ] },
+  "mixcloud.com":{ _name:"Mixcloud",
+    www:[ { title:"User",
+        docs:"https://docs.rsshub.app/multimedia.html#mixcloud",
+        source:[ "/:username/:type?" ],
+        target:(params) => {
+                    if (params.username !== undefined) {
+                        if (['stream', 'uploads', 'favorites', 'listens'].includes(params.type)) {
+                            return `/mixcloud/${params.username}/${params.type}`;
+                        } else if (params.type === undefined) {
+                            return `/mixcloud/${params.username}/uploads`;
+                        }
+                    }
+                } } ],
+    ".":[ { title:"User",
+        docs:"https://docs.rsshub.app/multimedia.html#mixcloud",
+        source:[ "/:username/:type?" ],
+        target:(params) => {
+                    if (params.username !== undefined) {
+                        if (['stream', 'uploads', 'favorites', 'listens'].includes(params.type)) {
+                            return `/mixcloud/${params.username}/${params.type}`;
+                        } else if (params.type === undefined) {
+                            return `/mixcloud/${params.username}/uploads`;
+                        }
+                    }
+                } } ] },
   "mobilism.org":{ _name:"Mobilism",
     ".":[ { title:"论坛",
         docs:"https://docs.rsshub.app/bbs.html#mobilism",
@@ -8125,14 +8164,18 @@
         target:"/ruancan" },
       { title:"分类",
         docs:"https://docs.rsshub.app/new-media.html#ruan-can-fen-lei",
-        source:[ "/sort/:sort",
+        source:[ "/cat/:category",
           "/" ],
-        target:"/ruancan/sort/:sort" },
-      { title:"标签",
-        docs:"https://docs.rsshub.app/new-media.html#ruan-can-biao-qian",
-        source:[ "/tag/:tag",
+        target:"/ruancan/category/:category" },
+      { title:"搜索",
+        docs:"https://docs.rsshub.app/new-media.html#ruan-can-sou-suo",
+        source:[ "/" ],
+        target:(params, url) => `/ruancan/search/${new URL(url).searchParams.get('s')}` },
+      { title:"用户文章",
+        docs:"https://docs.rsshub.app/new-media.html#ruan-can-yong-hu-wen-zhang",
+        source:[ "/i/:id",
           "/" ],
-        target:"/ruancan/tag/:tag" } ] },
+        target:"/ruancan/user/:id" } ] },
   "ruc.edu.cn":{ _name:"中国人民大学",
     hr:[ { title:"人事处",
         docs:"https://docs.rsshub.app/university.html#zhong-guo-ren-min-da-xue-ren-shi-chu",
