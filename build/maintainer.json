@@ -1365,6 +1365,9 @@
     "/fisher-spb/news": [
         "denis-ya"
     ],
+    "/fjksbm/:category?": [
+        "nczitzk"
+    ],
     "/flyert/preferential": [
         "howel52"
     ],
@@ -2014,6 +2017,9 @@
     "/hkjunkcall/": [
         "nczitzk"
     ],
+    "/hljucm/yjsy/:category?": [
+        "nczitzk"
+    ],
     "/hnrb/:id?": [
         "nczitzk"
     ],
@@ -2634,6 +2640,9 @@
     ],
     "/line/today/:edition?/:tab?": [
         "nczitzk"
+    ],
+    "/linkedin/cn/jobs/:keywords?": [
+        "bigfei"
     ],
     "/linkedin/jobs": [
         "BrandNewLifeJackie26"
