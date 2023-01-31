@@ -2546,6 +2546,27 @@
       }
     ]
   },
+  "byteclicks.com": {
+    "_name": "字节点击",
+    ".": [
+      {
+        "title": "首页",
+        "docs": "https://docs.rsshub.app/new-media.html#zi-jie-dian-ji",
+        "source": [
+          "/"
+        ],
+        "target": "/byteclicks"
+      },
+      {
+        "title": "标签",
+        "docs": "https://docs.rsshub.app/new-media.html#zi-jie-dian-ji",
+        "source": [
+          "/tag/:tag"
+        ],
+        "target": "/byteclicks/tag/:tag"
+      }
+    ]
+  },
   "bytes.dev": {
     "_name": "ui.dev",
     ".": [
@@ -3569,6 +3590,19 @@
           "/contests"
         ],
         "target": "/codeforces/contests"
+      }
+    ]
+  },
+  "coindesk.com": {
+    "_name": "CoinDesk",
+    ".": [
+      {
+        "title": "Coindesk Consensus Magazine",
+        "docs": "https://docs.rsshub.app/new-media.html#coindesk-consensus-magazine",
+        "source": [
+          "/"
+        ],
+        "target": "/coindesk/consensus-magazine"
       }
     ]
   },
@@ -18949,6 +18983,15 @@
         "source": [
           "/html/:id"
         ]
+      }
+    ]
+  },
+  "xaufe.edu.cn": {
+    "_name": "西安财经大学",
+    "jiaowu": [
+      {
+        "title": "教务处",
+        "docs": "https://docs.rsshub.app/university.html#xi-an-cai-jing-da-xue"
       }
     ]
   },

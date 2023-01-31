@@ -608,6 +608,12 @@
     "/bupt/rczp": [
         "nczitzk"
     ],
+    "/byteclicks/": [
+        "TonyRL"
+    ],
+    "/byteclicks/tag/:tag": [
+        "TonyRL"
+    ],
     "/bytes": [
         "meixger"
     ],
@@ -833,6 +839,9 @@
     ],
     "/codeforces/recent-actions": [
         "ftiasch"
+    ],
+    "/coindesk/consensus-magazine": [
+        "jameshih"
     ],
     "/comicskingdom/:name": [
         "stjohnjohnson"
@@ -4617,6 +4626,9 @@
     "/x6d/:id?": [
         "nczitzk"
     ],
+    "/xaufe/jiaowu/:category?": [
+        "shaokeyibb"
+    ],
     "/xaut/index/:category?": [
         "mocusez"
     ],
@@ -5072,8 +5084,6 @@
     "/cpython/:pre?": [],
     "/mi/golden": [],
     "/mi/crowdfunding": [],
-    "/mi/youpin/crowdfunding": [],
-    "/mi/youpin/new/:sort?": [],
     "/miui/:device/:type?/:region?": [],
     "/mi/bbs/board/:boardId": [],
     "/zongheng/chapter/:id": [],
