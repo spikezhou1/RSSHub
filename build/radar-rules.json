@@ -1658,6 +1658,15 @@
         "docs": "https://docs.rsshub.app/bbs.html#tie-ba",
         "source": "/home/main"
       }
+    ],
+    "top": [
+      {
+        "title": "热搜榜单",
+        "docs": "https://docs.rsshub.app/other.html#bai-du-re-sou",
+        "source": [
+          "/board"
+        ]
+      }
     ]
   },
   "baijingapp.com": {
@@ -7414,14 +7423,16 @@
   },
   "guandian.cn": {
     "_name": "观点网",
-    "www": {
-      "title": "资讯",
-      "docs": "https://docs.rsshub.app/new-media.html#guan-dian-wang-zi-xun",
-      "source": [
-        "/:category"
-      ],
-      "target": "/guandian/:category"
-    }
+    "www": [
+      {
+        "title": "资讯",
+        "docs": "https://docs.rsshub.app/new-media.html#guan-dian-wang-zi-xun",
+        "source": [
+          "/:category"
+        ],
+        "target": "/guandian/:category"
+      }
+    ]
   },
   "guangdiu.com": {
     "_name": "逛丢",
@@ -8821,6 +8832,32 @@
           "/toc/msom/0/0"
         ],
         "target": "/informs/msom"
+      }
+    ]
+  },
+  "iq.com": {
+    "_name": "爱奇艺",
+    ".": [
+      {
+        "title": "剧集",
+        "docs": "https://docs.rsshub.app/multimedia.html#ai-qi-yi",
+        "source": [
+          "/album/:id"
+        ],
+        "target": "/iqiyi/:category/:id"
+      }
+    ]
+  },
+  "iqiyi.com": {
+    "_name": "爱奇艺",
+    ".": [
+      {
+        "title": "用户视频",
+        "docs": "https://docs.rsshub.app/multimedia.html#ai-qi-yi",
+        "source": [
+          "/u/:uid/*"
+        ],
+        "target": "/iqiyi/user/video/:uid"
       }
     ]
   },
@@ -18330,6 +18367,27 @@
           "/"
         ],
         "target": "/vmware/flings"
+      }
+    ]
+  },
+  "vocus.cc": {
+    "_name": "方格子",
+    ".": [
+      {
+        "title": "出版專題",
+        "docs": "https://docs.rsshub.app/social-media.html#fang-ge-zi",
+        "source": [
+          "/:id/home",
+          "/:id/introduce"
+        ],
+        "target": "/vocus/publication/:id"
+      },
+      {
+        "title": "用户个人文章",
+        "docs": "https://docs.rsshub.app/social-media.html#fang-ge-zi",
+        "source": [
+          "/user/:id"
+        ]
       }
     ]
   },

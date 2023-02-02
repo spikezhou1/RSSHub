@@ -337,6 +337,9 @@
         "igxlin",
         "nczitzk"
     ],
+    "/baidu/top/:board?": [
+        "xyqfer"
+    ],
     "/baijing/:type?": [
         "nczitzk"
     ],
@@ -2193,6 +2196,12 @@
     ],
     "/informs/:category?": [
         "Fatpandac"
+    ],
+    "/iqiyi/album/:id": [
+        "TonyRL"
+    ],
+    "/iqiyi/user/video/:uid": [
+        "talengu"
     ],
     "/iresearch/report": [
         "brilon",
@@ -4431,6 +4440,12 @@
     "/vmware/flings": [
         "nczitzk"
     ],
+    "/vocus/publication/:id": [
+        "Maecenas"
+    ],
+    "/vocus/user/:id": [
+        "LogicJake"
+    ],
     "/vom/featured/:lang?": [
         "TonyRL"
     ],
@@ -5035,8 +5050,6 @@
     "/geektime/column/:cid": [],
     "/geektime/news": [],
     "/qdaily/:type/:id": [],
-    "/iqiyi/dongman/:id": [],
-    "/iqiyi/user/video/:uid": [],
     "/infzm/:id": [],
     "/dribbble/popular/:timeframe?": [],
     "/dribbble/user/:name": [],
@@ -5289,7 +5302,6 @@
     "/autotrader/:query": [],
     "/geekpark/breakingnews": [],
     "/baidu/doodles": [],
-    "/baidu/topwords/:boardId?": [],
     "/baidu/daily": [],
     "/sogou/doodles": [],
     "/hko/weather": [],
@@ -5458,8 +5470,6 @@
     "/bupt/portal": [],
     "/bupt/news": [],
     "/bupt/funbox": [],
-    "/vocus/publication/:id": [],
-    "/vocus/user/:id": [],
     "/1point3acres/blog/:category?": [],
     "/1point3acres/user/:id/threads": [],
     "/1point3acres/user/:id/posts": [],
