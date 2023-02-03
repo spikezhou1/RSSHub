@@ -3017,6 +3017,28 @@
       }
     ]
   },
+  "chaincatcher.com": {
+    "_name": "链捕手 ChainCatcher",
+    ".": [
+      {
+        "title": "首页",
+        "docs": "https://docs.rsshub.app/new-media.html#lian-bu-shou-chaincatcher",
+        "source": [
+          "/"
+        ],
+        "target": "/chaincatcher"
+      },
+      {
+        "title": "快讯",
+        "docs": "https://docs.rsshub.app/new-media.html#lian-bu-shou-chaincatcher",
+        "source": [
+          "/news",
+          "/"
+        ],
+        "target": "/chaincatcher/news"
+      }
+    ]
+  },
   "changba.com": {
     "_name": "唱吧",
     ".": [
@@ -5131,6 +5153,30 @@
           "/"
         ],
         "target": "/elasticsearch-cn/:params"
+      }
+    ]
+  },
+  "eleduck.com": {
+    "_name": "电鸭社区",
+    ".": [
+      {
+        "title": "工作机会",
+        "docs": "https://docs.rsshub.app/bbs.html#dian-ya-she-qu-fen-lei-wen-zhang",
+        "source": [
+          "/categories/5",
+          "/"
+        ],
+        "target": "/eleduck/jobs"
+      },
+      {
+        "title": "分类文章",
+        "docs": "https://docs.rsshub.app/bbs.html#dian-ya-she-qu-fen-lei-wen-zhang",
+        "source": "/categories/:cid"
+      },
+      {
+        "title": "全部文章",
+        "docs": "https://docs.rsshub.app/bbs.html#dian-ya-she-qu-fen-lei-wen-zhang",
+        "source": "*"
       }
     ]
   },
@@ -10927,6 +10973,21 @@
         "docs": "https://docs.rsshub.app/en/other.html#layoffs-fyi",
         "source": "/",
         "target": "/layoffs"
+      }
+    ]
+  },
+  "learnblockchain.cn": {
+    "_name": "登链社区",
+    ".": [
+      {
+        "title": "分类文章",
+        "docs": "https://docs.rsshub.app/programming.html#deng-lian-she-qu-wen-zhang",
+        "source": "/categories/:cid/:sort?"
+      },
+      {
+        "title": "全部文章",
+        "docs": "https://docs.rsshub.app/programming.html#deng-lian-she-qu-wen-zhang",
+        "source": "*"
       }
     ]
   },

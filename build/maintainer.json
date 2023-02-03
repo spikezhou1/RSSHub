@@ -715,6 +715,12 @@
     "/cebbank/quotation/history/:type": [
         "linbuxiao"
     ],
+    "/chaincatcher/": [
+        "TonyRL"
+    ],
+    "/chaincatcher/news": [
+        "TonyRL"
+    ],
     "/changba/changba/:userid": [
         "xizeyoupan",
         "kt286"
@@ -1298,6 +1304,12 @@
     ],
     "/elasticsearch-cn/:params?": [
         "nczitzk"
+    ],
+    "/eleduck/jobs": [
+        "sfyumi"
+    ],
+    "/eleduck/posts/:id?": [
+        "running-grass"
     ],
     "/elsevier/:journal": [
         "Derekmini",
@@ -2613,6 +2625,9 @@
     ],
     "/layoffs/": [
         "BrandNewLifeJackie26"
+    ],
+    "/learnblockchain/posts/:cid/:sort?": [
+        "running-grass"
     ],
     "/learnku/:community/:category?": [
         "kayw-geek"
@@ -5636,7 +5651,6 @@
     "/mail/imap/:email": [],
     "/network360/jobs": [],
     "/zhilian/:city/:keyword": [],
-    "/eleduck/jobs": [],
     "/nciae/news": [],
     "/nciae/tzgg": [],
     "/nciae/xsxx": [],
