@@ -900,6 +900,9 @@
     "/cqwu/news/:type?": [
         "Fatpandac"
     ],
+    "/crac/:type?": [
+        "Misaka13514"
+    ],
     "/creative-comic/book/:id/:coverOnly?/:quality?": [
         "TonyRL"
     ],
@@ -2182,6 +2185,15 @@
     ],
     "/iiilab/": [
         "Joey"
+    ],
+    "/ikea/cn/family_offers": [
+        "jzhangdev"
+    ],
+    "/ikea/cn/low_price": [
+        "jzhangdev"
+    ],
+    "/ikea/cn/new": [
+        "jzhangdev"
     ],
     "/ikea/gb/new": [
         "HenryQW"
@@ -4780,6 +4792,9 @@
     "/xyzrank/new-podcasts": [
         "nczitzk"
     ],
+    "/yahoo/news/:region/:category?": [
+        "KeiLongW"
+    ],
     "/yaohuo/": [
         "nczitzk"
     ],
@@ -5742,7 +5757,6 @@
     "/mlog-club/projects": [],
     "/chrome/webstore/extensions/:id": [],
     "/rthk-news/:lang/:category": [],
-    "/yahoo-news/:region/:category?": [],
     "/yahoo-jp-tv/:query": [],
     "/yahoo-author/:author": [],
     "/ddrk/update/:name/:season?": [],

@@ -3826,6 +3826,16 @@
       }
     ]
   },
+  "crac.org.cn": {
+    "_name": "中国无线电协会业余无线电分会",
+    "www": [
+      {
+        "title": "最新资讯",
+        "docs": "https://docs.rsshub.app/government.html#zhong-guo-wu-xian-dian-xie-hui-ye-yu-wu-xian-dian-fen-hui",
+        "source": "/News/List"
+      }
+    ]
+  },
   "creative-comic.tw": {
     "_name": "CCC 創作集",
     ".": [
@@ -8646,6 +8656,38 @@
           "/"
         ],
         "target": "/ikea/gb/offer"
+      }
+    ]
+  },
+  "ikea.cn": {
+    "_name": "IKEA 宜家",
+    ".": [
+      {
+        "title": "中国 - 当季新品推荐",
+        "docs": "https://docs.rsshub.app/shopping.html#ikea-yi-jia",
+        "source": [
+          "/cn/zh/new/",
+          "/"
+        ],
+        "target": "/ikea/cn/new"
+      },
+      {
+        "title": "中国 - 低价优选",
+        "docs": "https://docs.rsshub.app/shopping.html#ikea-yi-jia",
+        "source": [
+          "/cn/zh/campaigns/wo3-men2-de-chao1-zhi2-di1-jia4-pub8b08af40",
+          "/"
+        ],
+        "target": "/ikea/cn/low_price"
+      },
+      {
+        "title": "中国 - 会员特惠",
+        "docs": "https://docs.rsshub.app/shopping.html#ikea-yi-jia",
+        "source": [
+          "/cn/zh/offers/family-offers",
+          "/"
+        ],
+        "target": "/ikea/cn/family_offers"
       }
     ]
   },
@@ -19493,6 +19535,19 @@
           "/"
         ],
         "target": "/xyzrank/new-podcasts"
+      }
+    ]
+  },
+  "yahoo.com": {
+    "_name": "Yahoo",
+    ".": [
+      {
+        "title": "新闻",
+        "docs": "https://docs.rsshub.app/traditional-media.html#yahoo",
+        "source": [
+          "/"
+        ],
+        "target": "/yahoo/news/:region/:category?"
       }
     ]
   },
