@@ -2380,6 +2380,28 @@
       }
     ]
   },
+  "bjsk.org.cn": {
+    "_name": "北京社科网",
+    ".": [
+      {
+        "title": "通用",
+        "docs": "https://docs.rsshub.app/government.html#bei-jing-she-ke-wang",
+        "source": [
+          "/*"
+        ]
+      }
+    ]
+  },
+  "bjwxdxh.org.cn": {
+    "_name": "北京无线电协会",
+    "www": [
+      {
+        "title": "最新资讯",
+        "docs": "https://docs.rsshub.app/government.html#bei-jing-wu-xian-dian-xie-hui",
+        "source": "/news/class/"
+      }
+    ]
+  },
   "bjx.com.cn": {
     "_name": "北极星电力网",
     "guangfu": [
@@ -2779,6 +2801,18 @@
           "/"
         ],
         "target": "/cankaoxiaoxi/news/world_news"
+      }
+    ]
+  },
+  "cast.org.cn": {
+    "_name": "中国科学技术协会",
+    ".": [
+      {
+        "title": "通用",
+        "docs": "https://docs.rsshub.app/government.html#zhong-guo-ke-xue-ji-shu-xie-hui",
+        "source": [
+          "/col/:column/index.html"
+        ]
       }
     ]
   },
@@ -10821,6 +10855,20 @@
           "/"
         ],
         "target": "/kemono/:source?/:id?"
+      }
+    ]
+  },
+  "kimlaw.or.kr": {
+    "_name": "韓國海事法學會",
+    ".": [
+      {
+        "title": "学术论文",
+        "docs": "https://docs.rsshub.app/study.html#han-guo-hai-shi-fa-xue-hui",
+        "source": [
+          "/67",
+          "/"
+        ],
+        "target": "/kimlaw/thesis"
       }
     ]
   },
