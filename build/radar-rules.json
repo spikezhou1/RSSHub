@@ -845,6 +845,19 @@
       }
     ]
   },
+  "acg17.com": {
+    "_name": "ACG17",
+    ".": [
+      {
+        "title": "全部文章",
+        "docs": "https://docs.rsshub.app/anime.html#acg17",
+        "source": [
+          "/post"
+        ],
+        "target": "/acg17/post/all"
+      }
+    ]
+  },
   "acs.org": {
     "_name": "American Chemistry Society",
     "pubs": [
@@ -10620,6 +10633,19 @@
       }
     ]
   },
+  "jin10.com": {
+    "_name": "金十数据",
+    ".": [
+      {
+        "title": "市场快讯",
+        "docs": "https://docs.rsshub.app/finance.html#jin-shi-shu-ju",
+        "source": [
+          "/"
+        ],
+        "target": "/jin10"
+      }
+    ]
+  },
   "jisilu.cn": {
     "_name": "集思录",
     ".": [
@@ -15292,6 +15318,24 @@
           "/"
         ],
         "target": "/rfi/news"
+      }
+    ]
+  },
+  "rodong.rep.kp": {
+    "_name": "劳动新闻",
+    ".": [
+      {
+        "title": "新闻",
+        "docs": "https://docs.rsshub.app/traditional-media.html#lao-dong-xin-wen",
+        "source": [
+          "/cn/index.php",
+          "/en/index.php",
+          "/ko/index.php",
+          "/cn",
+          "/en",
+          "/ko"
+        ],
+        "target": "/rodong/news"
       }
     ]
   },

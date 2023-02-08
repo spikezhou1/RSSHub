@@ -149,6 +149,9 @@
     "/acfun/user/video/:uid": [
         "wdssmq"
     ],
+    "/acg17/post/all": [
+        "SunBK201"
+    ],
     "/acs/journal/:id": [
         "nczitzk"
     ],
@@ -2538,6 +2541,9 @@
         "DIYgod",
         "prnake"
     ],
+    "/jin10/:important?": [
+        "laampui"
+    ],
     "/jisilu/:category?/:sort?/:day?": [
         "nczitzk"
     ],
@@ -3674,6 +3680,9 @@
     ],
     "/rfi/news": [
         "nczitzk"
+    ],
+    "/rodong/news/:language?": [
+        "TonyRL"
     ],
     "/rsshub/routes/:lang?": [
         "DIYgod"
@@ -5600,7 +5609,6 @@
     "/aptonic/action/:untested?": [],
     "/im2maker/:channel?": [],
     "/cninfo/announcement/:column/:code/:orgId/:category?/:search?": [],
-    "/jinshi/index": [],
     "/gov/moa/sjzxfb": [],
     "/gov/moa/:suburl(.*)": [],
     "/nosetime/:id/:type/:sort?": [],
