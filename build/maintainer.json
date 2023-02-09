@@ -2523,6 +2523,9 @@
     "/jewishmuseum/exhibitions": [
         "chazeon"
     ],
+    "/jiaoliudao/": [
+        "TonyRL"
+    ],
     "/jiemian/list/:id?": [
         "WenhuWee",
         "nczitzk"
@@ -3406,6 +3409,9 @@
     "/pixiv/user/:id": [
         "DIYgod"
     ],
+    "/piyao/jrpy": [
+        "Fatpandac"
+    ],
     "/pku/admission/sszs": [
         "pkuyjs"
     ],
@@ -3594,6 +3600,9 @@
     ],
     "/qq/ac/rank/:type?/:time?": [
         "nczitzk"
+    ],
+    "/qq/fact": [
+        "hoilc"
     ],
     "/qq/kg/:userId": [
         "zhangxiang012"
@@ -5710,7 +5719,6 @@
     "/zhanqi/room/:id": [],
     "/wineyun/:category": [],
     "/kzfeed/topic/:id": [],
-    "/factcheck": [],
     "/x-mol/news/:tag?": [],
     "/x-mol/paper/:type/:magazine": [],
     "/zhishifenzi/news/:type?": [],
