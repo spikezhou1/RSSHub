@@ -12259,6 +12259,45 @@
       }
     ]
   },
+  "misskey.io": {
+    "_name": "Misskey",
+    ".": [
+      {
+        "title": "Featured Notes",
+        "docs": "https://docs.rsshub.app/social-media.html#misskey",
+        "source": [
+          "/explore"
+        ],
+        "target": "/misskey/notes/featured/misskey.io"
+      }
+    ]
+  },
+  "madost.one": {
+    "_name": "Misskey",
+    ".": [
+      {
+        "title": "Featured Notes",
+        "docs": "https://docs.rsshub.app/social-media.html#misskey",
+        "source": [
+          "/explore"
+        ],
+        "target": "/misskey/notes/featured/madost.one"
+      }
+    ]
+  },
+  "mk.nixnet.social": {
+    "_name": "Misskey",
+    ".": [
+      {
+        "title": "Featured Notes",
+        "docs": "https://docs.rsshub.app/social-media.html#misskey",
+        "source": [
+          "/explore"
+        ],
+        "target": "/misskey/notes/featured/mk.nixnet.social"
+      }
+    ]
+  },
   "mixcloud.com": {
     "_name": "Mixcloud",
     "www": [
@@ -17028,6 +17067,19 @@
           "/"
         ],
         "target": "/swissinfo/:language?/:category?"
+      }
+    ]
+  },
+  "swjtu.edu.cn": {
+    "_name": "西南交通大学",
+    "ctt": [
+      {
+        "title": "交通运输与物流学院 - 研究生通知",
+        "docs": "https://docs.rsshub.app/university.html#xi-nan-jiao-tong-da-xue",
+        "source": [
+          "/yethan/WebIndexAction",
+          "/"
+        ]
       }
     ]
   },
