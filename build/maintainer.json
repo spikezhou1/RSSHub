@@ -2204,6 +2204,9 @@
     "/hrbeu/yjsy/list/:id": [
         "Derekmini"
     ],
+    "/hrbust/jwzx/:type?/:page?": [
+        "LenaNouzen"
+    ],
     "/huangz/": [
         "stormbuf"
     ],
@@ -4291,11 +4294,14 @@
         "nczitzk",
         "bigfei"
     ],
+    "/thepaper/list/:id": [
+        "nczitzk",
+        "bigfei"
+    ],
     "/thepaper/factpaper/:status?": [
         "nczitzk"
     ],
-    "/thepaper/list/:id": [
-        "nczitzk",
+    "/thepaper/sidebar/:sec?": [
         "bigfei"
     ],
     "/theverge/:hub?": [

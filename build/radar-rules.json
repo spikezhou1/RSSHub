@@ -8770,6 +8770,16 @@
       }
     ]
   },
+  "hrbust.edu.cn": {
+    "_name": "哈尔滨理工大学",
+    "jwzx": [
+      {
+        "title": "教务处",
+        "docs": "https://docs.rsshub.app/university.html#ha-er-bin-li-gong-da-xue",
+        "source": "/homepage/*"
+      }
+    ]
+  },
   "huangz.me": {
     "_name": "黄健宏博客",
     "blog": [
@@ -17838,6 +17848,14 @@
           "/"
         ],
         "target": "/thepaper/featured"
+      },
+      {
+        "title": "侧边栏",
+        "docs": "https://docs.rsshub.app/traditional-media.html#peng-pai-xin-wen-ce-bian-lan",
+        "source": [
+          "/"
+        ],
+        "target": "/thepaper/sidebar"
       },
       {
         "title": "频道",
