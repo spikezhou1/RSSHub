@@ -1421,6 +1421,20 @@
       }
     ]
   },
+  "annualreviews.org": {
+    "_name": "Annual Reviews",
+    ".": [
+      {
+        "title": "Journal",
+        "docs": "https://docs.rsshub.app/journal.html#annual-reviews-journal",
+        "source": [
+          "/journal/:id",
+          "/"
+        ],
+        "target": "/annualreviews/:id"
+      }
+    ]
+  },
   "anquanke.com": {
     "_name": "安全客",
     ".": [
@@ -4447,6 +4461,41 @@
         "docs": "https://docs.rsshub.app/bbs.html#dcard",
         "source": "/f/:section",
         "target": "/dcard/:section/popular"
+      }
+    ]
+  },
+  "dcfever.com": {
+    "_name": "DCFever",
+    ".": [
+      {
+        "title": "新聞中心",
+        "docs": "https://docs.rsshub.app/new-media.html#dcfever",
+        "source": [
+          "/news/index.php",
+          "/"
+        ]
+      },
+      {
+        "title": "測試報告",
+        "docs": "https://docs.rsshub.app/new-media.html#dcfever",
+        "source": [
+          "/:type/reviews.php"
+        ],
+        "params": "/dcfever/reviews/:type"
+      },
+      {
+        "title": "二手市集",
+        "docs": "https://docs.rsshub.app/new-media.html#dcfever",
+        "source": [
+          "/trading/listing.php"
+        ]
+      },
+      {
+        "title": "二手市集 - 物品搜尋",
+        "docs": "https://docs.rsshub.app/new-media.html#dcfever",
+        "source": [
+          "/trading/search.php"
+        ]
       }
     ]
   },
