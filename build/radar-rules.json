@@ -74,6 +74,11 @@
         "source": "/"
       },
       {
+        "title": "云音乐 - 歌手歌曲",
+        "docs": "https://docs.rsshub.app/multimedia.html#wang-yi-yun-yin-yue",
+        "source": "/"
+      },
+      {
         "title": "云音乐 - 电台节目",
         "docs": "https://docs.rsshub.app/multimedia.html#wang-yi-yun-yin-yue",
         "source": "/"
@@ -141,7 +146,7 @@
         "source": "/m/album"
       },
       {
-        "title": "云音乐 - 播单声音",
+        "title": "云音乐 - 电台节目",
         "docs": "https://docs.rsshub.app/multimedia.html#wang-yi-yun-yin-yue",
         "source": [
           "/m/radio",
@@ -4218,7 +4223,7 @@
         "title": "Notes",
         "docs": "https://docs.rsshub.app/social-media.html#crossbell",
         "source": "/*",
-        "target": "/notes"
+        "target": "/crossbell/notes"
       }
     ]
   },
@@ -4229,7 +4234,7 @@
         "title": "Notes",
         "docs": "https://docs.rsshub.app/social-media.html#crossbell",
         "source": "/*",
-        "target": "/notes/source/xlog"
+        "target": "/crossbell/notes/source/xlog"
       }
     ]
   },
@@ -4495,7 +4500,7 @@
         "source": [
           "/:type/reviews.php"
         ],
-        "params": "/dcfever/reviews/:type"
+        "target": "/dcfever/reviews/:type"
       },
       {
         "title": "二手市集",
@@ -6114,24 +6119,28 @@
   },
   "fffdm.com": {
     "_name": "风之动漫",
-    "manhua": {
-      "title": "在线漫画",
-      "docs": "https://docs.rsshub.app/anime.html#feng-zhi-dong-man",
-      "source": [
-        "/manhua/:id",
-        "/:id"
-      ],
-      "target": "/fffdm/manhua/:id"
-    },
-    "www": {
-      "title": "在线漫画",
-      "docs": "https://docs.rsshub.app/anime.html#feng-zhi-dong-man",
-      "source": [
-        "/manhua/:id",
-        "/:id"
-      ],
-      "target": "/fffdm/manhua/:id"
-    }
+    "manhua": [
+      {
+        "title": "在线漫画",
+        "docs": "https://docs.rsshub.app/anime.html#feng-zhi-dong-man",
+        "source": [
+          "/manhua/:id",
+          "/:id"
+        ],
+        "target": "/fffdm/manhua/:id"
+      }
+    ],
+    "www": [
+      {
+        "title": "在线漫画",
+        "docs": "https://docs.rsshub.app/anime.html#feng-zhi-dong-man",
+        "source": [
+          "/manhua/:id",
+          "/:id"
+        ],
+        "target": "/fffdm/manhua/:id"
+      }
+    ]
   },
   "filmdeepfocus.com": {
     "_name": "深焦",
