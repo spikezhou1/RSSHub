@@ -8876,6 +8876,19 @@
       }
     ]
   },
+  "hunanpea.com": {
+    "_name": "湖南人事考试网",
+    "rsks": [
+      {
+        "title": "公告",
+        "docs": "https://docs.rsshub.app/study.html#hu-nan-ren-shi-kao-shi-wang",
+        "source": [
+          "/Category/:guid/ArticlesByCategory.do"
+        ],
+        "target": "/hunanpea/rsks/:guid"
+      }
+    ]
+  },
   "hupu.com": {
     "_name": "虎扑",
     "": [
@@ -9395,6 +9408,18 @@
           "/toc/msom/0/0"
         ],
         "target": "/informs/msom"
+      }
+    ]
+  },
+  "inoreader.com": {
+    "_name": "Inoreader",
+    ".": [
+      {
+        "title": "HTML Clip",
+        "docs": "https://docs.rsshub.app/reading.html#inoreader",
+        "source": [
+          "/stream/user/:user/tag/:tag/*"
+        ]
       }
     ]
   },

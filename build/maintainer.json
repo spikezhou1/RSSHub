@@ -2234,6 +2234,9 @@
     "/huanqiu/news/:category?": [
         "yuxinliu-alex"
     ],
+    "/hunanpea/rsks/:guid": [
+        "TonyRL"
+    ],
     "/hupu/all/:id?": [
         "nczitzk"
     ],
@@ -2344,6 +2347,9 @@
     ],
     "/informs/:category?": [
         "Fatpandac"
+    ],
+    "/inoreader/html_clip/:user/:tag/:num?": [
+        "BeautyyuYanli"
     ],
     "/iqiyi/album/:id": [
         "TonyRL"
