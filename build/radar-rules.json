@@ -2758,22 +2758,43 @@
   },
   "bnu.edu.cn": {
     "_name": "北京师范大学",
-    ".": [
+    "bs": [
       {
         "title": "经济与工商管理学院",
         "docs": "https://docs.rsshub.app/university.html#bei-jing-shi-fan-da-xue",
         "source": [
-          "/"
+          "/:category/index.html"
         ],
-        "target": "/bs/:category?"
-      },
+        "target": "/bnu/bs/:category"
+      }
+    ],
+    "dwxgb": [
       {
-        "title": "经济与工商管理学院",
+        "title": "党委学生工作部",
         "docs": "https://docs.rsshub.app/university.html#bei-jing-shi-fan-da-xue",
         "source": [
-          "/"
+          "/:category/:type/index.html"
         ],
         "target": "/bnu/dwxgb/:category/:type"
+      }
+    ],
+    "fdy": [
+      {
+        "title": "党委学生工作部辅导员发展中心",
+        "docs": "https://docs.rsshub.app/university.html#bei-jing-shi-fan-da-xue",
+        "source": [
+          "/"
+        ]
+      }
+    ],
+    "www.lib": [
+      {
+        "title": "图书馆通知",
+        "docs": "https://docs.rsshub.app/university.html#bei-jing-shi-fan-da-xue",
+        "source": [
+          "/:category/index.htm"
+        ],
+        "target": "/bnu/lib/:category"
       }
     ]
   },
@@ -7469,6 +7490,15 @@
           "/"
         ],
         "target": "/gov/moe/newest_file"
+      },
+      {
+        "title": "司局通知",
+        "docs": "https://docs.rsshub.app/government.html#zhong-hua-ren-min-gong-he-guo-jiao-yu-bu",
+        "source": [
+          "/s78/:column/tongzhi",
+          "/s78/:column"
+        ],
+        "target": "/gov/moe/s78/:column"
       }
     ]
   },
@@ -15395,6 +15425,18 @@
       }
     ]
   },
+  "qiyoujiage.com": {
+    "_name": "汽油价格网",
+    ".": [
+      {
+        "title": "今日油价查询",
+        "docs": "https://docs.rsshub.app/other.html#qi-you-jia-ge-wang",
+        "source": [
+          "/*"
+        ]
+      }
+    ]
+  },
   "qlu.edu.cn": {
     "_name": "齐鲁工业大学",
     ".": [
@@ -17394,6 +17436,17 @@
           "/yethan/WebIndexAction",
           "/"
         ]
+      }
+    ],
+    "jiuye": [
+      {
+        "title": "就业招聘信息",
+        "docs": "https://docs.rsshub.app/university.html#xi-nan-jiao-tong-da-xue",
+        "source": [
+          "/career",
+          "/"
+        ],
+        "target": "/swjtu/jyzpxx"
       }
     ]
   },

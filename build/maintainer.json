@@ -666,6 +666,15 @@
     "/bnu/bs/:category?": [
         "nczitzk"
     ],
+    "/bnu/dwxgb/:category/:type": [
+        "Fatpandac"
+    ],
+    "/bnu/fdy/:path*": [
+        "TonyRL"
+    ],
+    "/bnu/lib/:category?": [
+        "TonyRL"
+    ],
     "/bookfere/:category": [
         "OdinZhang"
     ],
@@ -1802,6 +1811,9 @@
     ],
     "/gov/moe/:type": [
         "Crawler995"
+    ],
+    "/gov/moe/s78/:column": [
+        "TonyRL"
     ],
     "/gov/mofcom/article/:suffix+": [
         "LogicJake"
@@ -3682,6 +3694,9 @@
         "Fatpandac",
         "nczitzk"
     ],
+    "/qiyoujiage/:path+": [
+        "TonyRL"
+    ],
     "/qlu/notice": [
         "SunBK201"
     ],
@@ -4148,6 +4163,9 @@
         "nczitzk"
     ],
     "/swjtu/jtys/yjs": [
+        "qizidog"
+    ],
+    "/swjtu/jyzpxx": [
         "qizidog"
     ],
     "/swpu/bgw/:code": [
@@ -5482,7 +5500,6 @@
     "/chouti/top/:hour?": [],
     "/chouti/:subject?": [],
     "/westore/new": [],
-    "/oilprice/:area": [],
     "/nhentai/search/:keyword/:mode?": [],
     "/nhentai/:key/:keyword/:mode?": [],
     "/ltaaa/:category?": [],
