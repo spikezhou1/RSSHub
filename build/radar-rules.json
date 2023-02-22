@@ -6695,6 +6695,19 @@
       }
     ]
   },
+  "gettr.com": {
+    "_name": "GETTR",
+    ".": [
+      {
+        "title": "个人时间线",
+        "docs": "https://docs.rsshub.app/social-media.html#gettr",
+        "source": [
+          "/user/:id"
+        ],
+        "target": "/gettr/user/:id"
+      }
+    ]
+  },
   "sunborngame.com": {
     "_name": "少女前线",
     ".": [
@@ -14835,6 +14848,35 @@
         "docs": "https://docs.rsshub.app/social-media.html#picuki-yong-hu",
         "source": "/profile/:id",
         "target": "/picuki/profile/:id"
+      }
+    ]
+  },
+  "pikabu.ru": {
+    "_name": "Pikabu",
+    ".": [
+      {
+        "title": "Community",
+        "docs": "https://docs.rsshub.app/en/bbs.html#pikabu",
+        "source": [
+          "/community/:name"
+        ],
+        "target": "/pikabu/community/:name"
+      },
+      {
+        "title": "Tag",
+        "docs": "https://docs.rsshub.app/en/bbs.html#pikabu",
+        "source": [
+          "/tag/:name"
+        ],
+        "target": "/pikabu/tag/:name"
+      },
+      {
+        "title": "User",
+        "docs": "https://docs.rsshub.app/en/bbs.html#pikabu",
+        "source": [
+          "/:name"
+        ],
+        "target": "/pikabu/user/:name"
       }
     ]
   },

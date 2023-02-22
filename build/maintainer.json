@@ -1637,6 +1637,9 @@
     "/getitfree/:category?": [
         "nczitzk"
     ],
+    "/gettr/user/:id": [
+        "TonyRL"
+    ],
     "/gf-cn/news/:category?": [
         "nczitzk"
     ],
@@ -3513,6 +3516,15 @@
         "hoilc",
         "Rongronggg9",
         "devinmugen"
+    ],
+    "/pikabu/community/:name": [
+        "TonyRL"
+    ],
+    "/pikabu/tag/:name": [
+        "TonyRL"
+    ],
+    "/pikabu/user/:name": [
+        "TonyRL"
     ],
     "/pincong/category/:category?/:sort?": [
         "zphw"
