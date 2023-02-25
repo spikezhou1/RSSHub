@@ -1536,6 +1536,20 @@
       }
     ]
   },
+  "apkpure.com": {
+    "_name": "APKPure",
+    ".": [
+      {
+        "title": "所有版本",
+        "docs": "https://docs.rsshub.app/program-update.html#apkpure",
+        "source": [
+          "/:region/:stuff/:pkg/versions",
+          "/:stuff/:pkg/versions",
+          "/:stuff/:pkg"
+        ]
+      }
+    ]
+  },
   "apnews.com": {
     "_name": "AP News",
     ".": [
@@ -5121,19 +5135,6 @@
           "/"
         ],
         "target": "/douyu/post/:id"
-      }
-    ]
-  },
-  "sehuatang.net": {
-    "_name": "色花堂",
-    ".": [
-      {
-        "title": "分区帖子",
-        "docs": "https://docs.rsshub.app/multimedia.html#se-hua-tang-fen-qu-tie-zi",
-        "source": [
-          "/:category",
-          "/"
-        ]
       }
     ]
   },
@@ -14993,6 +14994,19 @@
       }
     ]
   },
+  "pixabay.com": {
+    "_name": "Pixabay",
+    ".": [
+      {
+        "title": "Search",
+        "docs": "https://docs.rsshub.app/en/picture.html#pixabay",
+        "source": [
+          "/:searchType/search/:q"
+        ],
+        "target": "/pixabay/search/:q"
+      }
+    ]
+  },
   "pixiv.net": {
     "_name": "Pixiv",
     "www": [
@@ -16518,6 +16532,19 @@
           "/t/:tag/blogs"
         ],
         "target": "/segmentfault/blogs/:tag"
+      }
+    ]
+  },
+  "sehuatang.net": {
+    "_name": "色花堂",
+    ".": [
+      {
+        "title": "分区帖子",
+        "docs": "https://docs.rsshub.app/multimedia.html#se-hua-tang-fen-qu-tie-zi",
+        "source": [
+          "/:category",
+          "/"
+        ]
       }
     ]
   },

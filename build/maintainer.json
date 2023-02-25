@@ -305,6 +305,9 @@
     "/anquanke/:category/:fulltext?": [
         "qwertyuiop6"
     ],
+    "/apkpure/versions/:pkg/:region?": [
+        "maple3142"
+    ],
     "/apnews/topics/:topic?": [
         "zoenglinghou",
         "mjysci",
@@ -1295,31 +1298,6 @@
     ],
     "/douyu/room/:id": [
         "DIYgod"
-    ],
-    "/dsndsht23/bt/:subforumid?": [
-        "qiwihui",
-        "junfengP",
-        "nczitzk"
-    ],
-    "/dsndsht23/picture/:subforumid": [
-        "qiwihui",
-        "junfengP",
-        "nczitzk"
-    ],
-    "/dsndsht23/:subforumid?/:type?": [
-        "qiwihui",
-        "junfengP",
-        "nczitzk"
-    ],
-    "/dsndsht23/:subforumid?": [
-        "qiwihui",
-        "junfengP",
-        "nczitzk"
-    ],
-    "/dsndsht23/": [
-        "qiwihui",
-        "junfengP",
-        "nczitzk"
     ],
     "/dtcj/datahero/:category?": [
         "nczitzk"
@@ -3548,6 +3526,9 @@
     "/pincong/topic/:topic": [
         "zphw"
     ],
+    "/pixabay/search/:q/:order?": [
+        "TonyRL"
+    ],
     "/pixiv/ranking/:mode/:date?": [
         "EYHN"
     ],
@@ -3978,6 +3959,31 @@
     "/segmentfault/user/:name": [
         "leyuuu",
         "Fatpandac"
+    ],
+    "/sehuatang/bt/:subforumid?": [
+        "qiwihui",
+        "junfengP",
+        "nczitzk"
+    ],
+    "/sehuatang/picture/:subforumid": [
+        "qiwihui",
+        "junfengP",
+        "nczitzk"
+    ],
+    "/sehuatang/:subforumid?/:type?": [
+        "qiwihui",
+        "junfengP",
+        "nczitzk"
+    ],
+    "/sehuatang/:subforumid?": [
+        "qiwihui",
+        "junfengP",
+        "nczitzk"
+    ],
+    "/sehuatang/": [
+        "qiwihui",
+        "junfengP",
+        "nczitzk"
     ],
     "/sensortower/blog/:language?": [
         "nczitzk"
@@ -5580,7 +5586,6 @@
     "/miniflux/:feeds/:parameters?": [],
     "/anigamer/new_anime": [],
     "/anigamer/anime/:sn": [],
-    "/apkpure/versions/:region/:pkg": [],
     "/cpu/home": [],
     "/cpu/jwc": [],
     "/cpu/yjsy": [],
