@@ -263,7 +263,7 @@
     "/aijishu/channel/:name": [
         "bigfei"
     ],
-    "/aijishu/user/:name": [
+    "/aijishu/u/:name": [
         "bigfei"
     ],
     "/airchina/announcement": [
@@ -5087,8 +5087,14 @@
         "xyqfer",
         "Fatpandac"
     ],
+    "/youtube/c/:id/:embed?": [
+        "TonyRL"
+    ],
     "/youtube/channel/:id/:embed?": [
         "DIYgod"
+    ],
+    "/youtube/charts/:category?/:country?/:embed?": [
+        "TonyRL"
     ],
     "/youtube/playlist/:id/:embed?": [
         "HenryQW"
