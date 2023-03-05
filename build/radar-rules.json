@@ -208,6 +208,19 @@
       }
     ]
   },
+  "0818tuan.com": {
+    "_name": "0818 团",
+    ".": [
+      {
+        "title": "分类",
+        "docs": "https://docs.rsshub.app/shopping.html#_0818-tuan",
+        "source": [
+          "/:listId",
+          "/"
+        ]
+      }
+    ]
+  },
   "18comic.org": {
     "_name": "禁漫天堂",
     ".": [
@@ -13558,6 +13571,27 @@
       }
     ]
   },
+  "nber.org": {
+    "_name": "National Bureau of Economic Research",
+    ".": [
+      {
+        "title": "New working paper",
+        "docs": "https://docs.rsshub.app/en/journal.html#national-bureau-of-economic-research",
+        "source": [
+          "/papers"
+        ],
+        "target": "/nber/news"
+      },
+      {
+        "title": "All working paper",
+        "docs": "https://docs.rsshub.app/en/journal.html#national-bureau-of-economic-research",
+        "source": [
+          "/papers"
+        ],
+        "target": "/nber/papers"
+      }
+    ]
+  },
   "ncepu.edu.cn": {
     "_name": "华北电力大学研究生院",
     "yjsy": [
@@ -19377,6 +19411,19 @@
       }
     ]
   },
+  "v1tx.com": {
+    "_name": "v1tx",
+    ".": [
+      {
+        "title": "最新文章",
+        "docs": "https://docs.rsshub.app/blog.html#v1tx",
+        "source": [
+          "/"
+        ],
+        "target": "/v1tx"
+      }
+    ]
+  },
   "baden-wuerttemberg.de": {
     "_name": "Constitutional Court of Baden-Württemberg (Germany)",
     "verfgh": [
@@ -19748,6 +19795,19 @@
       }
     ]
   },
+  "weekendhk.com": {
+    "_name": "新假期周刊",
+    ".": [
+      {
+        "title": "最新文章",
+        "docs": "https://docs.rsshub.app/traditional-media.html#xin-jia-qi-zhou-kan",
+        "source": [
+          "/"
+        ],
+        "target": "/weekendhk"
+      }
+    ]
+  },
   "weibo.cn": {
     "_name": "微博",
     "m": [
@@ -20095,6 +20155,18 @@
         "docs": "https://docs.rsshub.app/other.html#wu-chang-shou-yi-xue-yuan",
         "source": "/*",
         "target": "/wsyu/news/mtjj"
+      }
+    ]
+  },
+  "wxkol.com": {
+    "_name": "微小领",
+    ".": [
+      {
+        "title": "微信公众号",
+        "docs": "https://docs.rsshub.app/new-media.html#wei-xiao-ling",
+        "source": [
+          "/show/:id"
+        ]
       }
     ]
   },
@@ -20453,16 +20525,14 @@
     ]
   },
   "xwlb.com.cn": {
-    "_name": "新闻联播直播",
+    "_name": "羊城晚报金羊网",
     ".": [
       {
-        "title": "新闻联播文字版完整版",
-        "docs": "https://docs.rsshub.app/traditional-media.html#yang-shi-xin-wen",
+        "title": "新闻",
+        "docs": "https://docs.rsshub.app/traditional-media.html#yang-cheng-wan-bao-jin-yang-wang",
         "source": [
-          "/cctv.html",
           "/"
-        ],
-        "target": "/xwlb"
+        ]
       }
     ]
   },
@@ -21771,26 +21841,6 @@
         "docs": "https://docs.rsshub.app/other.html#wegene",
         "source": "/crowdsourcing",
         "target": "/wegene/column/all/all"
-      }
-    ]
-  },
-  "qdaily.com": {
-    "_name": "好奇心日报",
-    "www": [
-      {
-        "title": "标签",
-        "docs": "https://docs.rsshub.app/new-media.html#hao-qi-xin-ri-bao",
-        "source": "/tags/:idd"
-      },
-      {
-        "title": "栏目",
-        "docs": "https://docs.rsshub.app/new-media.html#hao-qi-xin-ri-bao",
-        "source": "/special_columns/:idd"
-      },
-      {
-        "title": "分类",
-        "docs": "https://docs.rsshub.app/new-media.html#hao-qi-xin-ri-bao",
-        "source": "/categories/:idd"
       }
     ]
   },
