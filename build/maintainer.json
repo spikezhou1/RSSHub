@@ -308,6 +308,9 @@
     "/ally/rail/:category?/:topic?": [
         "Rongronggg9"
     ],
+    "/amazon/kindle/software-updates": [
+        "NavePnow"
+    ],
     "/android/platform-tools-releases": [
         "nczitzk"
     ],
@@ -917,6 +920,15 @@
     ],
     "/clickme/:site/:grouping/:name": [
         "hoilc"
+    ],
+    "/cls/depth/:category?": [
+        "nczitzk"
+    ],
+    "/cls/hot": [
+        "5upernova-heng"
+    ],
+    "/cls/telegraph/:category?": [
+        "nczitzk"
     ],
     "/cmde/:cate*": [
         "run-ze"
@@ -3187,11 +3199,17 @@
     "/nifd/research/:categoryGuid?": [
         "Fatpandac"
     ],
-    "/nikkei-asia/nikkei-asia": [
+    "/nikkei/asia": [
         "rainrdx"
     ],
-    "/nikkei-cn/:language?/:category?/:type?": [
+    "/nikkei/cn/:language?/:path?": [
         "nczitzk"
+    ],
+    "/nikkei/index": [
+        "zjysdhr"
+    ],
+    "/nikkei/:category/:article_type?": [
+        "Arracc"
     ],
     "/nintendo/direct": [
         "HFO4"
@@ -4122,6 +4140,9 @@
     "/smzdm/ranking/:rank_type/:rank_id/:hour": [
         "DIYgod"
     ],
+    "/snowpeak/us/new-arrivals": [
+        "NavePnow"
+    ],
     "/sobooks/tag/:id?": [
         "nczitzk"
     ],
@@ -4138,6 +4159,9 @@
         "sgqy",
         "hang333",
         "TonyRL"
+    ],
+    "/sony/downloads/:productType/:productId": [
+        "NavePnow"
     ],
     "/soundofhope/:channel/:id": [
         "Fatpandac"
@@ -5027,6 +5051,9 @@
     ],
     "/xmnn/epaper/:id?": [
         "nczitzk"
+    ],
+    "/xsijishe/forum/:fid": [
+        "akynazh"
     ],
     "/xueqiu/column/:id": [
         "TonyRL"
@@ -6082,8 +6109,6 @@
     "/coronavirus/sg-moh": [],
     "/coronavirus/yahoo-japan/:tdfk?": [],
     "/njfu/jwc/:category?": [],
-    "/nikkei/index": [],
-    "/nikkei/:category/:article_type?": [],
     "/mqube/user/:user": [],
     "/mqube/tag/:tag": [],
     "/mqube/latest": [],
@@ -6242,8 +6267,6 @@
     "/gov/caict/qwsj": [],
     "/gov/caict/caictgd": [],
     "/cs/news/:caty": [],
-    "/cls/depth/:category?": [],
-    "/cls/telegraph/:category?": [],
     "/hentai-cosplays/:type?/:name?": [],
     "/porn-images-xxx/:type?/:name?": [],
     "/dcinside/board/:id": [],
