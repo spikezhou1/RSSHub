@@ -3488,6 +3488,11 @@
         docs:"https://docs.rsshub.app/game.html#gameapps-hk-xiang-gang-shou-ji-you-xi-wang",
         source:[ "/" ],
         target:"/gameapps" } ] },
+  "gamebase.com.tw":{ _name:"遊戲基地 Gamebase",
+    news:[ { title:"新聞",
+        docs:"https://docs.rsshub.app/game.html#gamebase-xin-wen",
+        source:[ "/news/:type" ],
+        target:(params, url) => `/gamebase/news/${params.type}/${new URL(url).searchParams.get('type')}` } ] },
   "gamer.com.tw":{ _name:"巴哈姆特電玩資訊站",
     acg:[ { title:"GNN 新聞",
         docs:"https://docs.rsshub.app/bbs.html#ba-ha-mu-te-dian-wan-zi-xun-zhan",
@@ -6677,6 +6682,17 @@
         source:[ "/blog",
           "/" ],
         target:"/macfilos/blog" } ] },
+  "magazinelib.com":{ _name:"magazineLib",
+    ".":[ { title:"Latest Magazine",
+        docs:"https://docs.rsshub.app/reading.html#magazinelib",
+        source:[ "/" ],
+        target:(_, url) => {
+                    const query = new URL(url).searchParams.get('s');
+                    if (query === null) {
+                        return '/magazinelib/latest-magazine';
+                    }
+                    return `/magazinelib/latest-magazine/${query}`;
+                } } ] },
   "mangadex.org":{ _name:"MangaDex",
     ".":[ { title:"漫画更新",
         docs:"https://docs.rsshub.app/anime.html#mangadex",
@@ -11118,11 +11134,11 @@
   "wsj.com":{ _name:"华尔街日报 The Wall Street Journal (WSJ)",
     cn:[ { title:"新闻",
         docs:"https://docs.rsshub.app/traditional-media.html#hua-er-jie-ri-bao-the-wall-street-journal-wsj",
-        souce:"/",
+        source:"/",
         target:"/wsj/zh-cn" } ],
     www:[ { title:"新闻",
         docs:"https://docs.rsshub.app/traditional-media.html#hua-er-jie-ri-bao-the-wall-street-journal-wsj",
-        souce:"/",
+        source:"/",
         target:"/wsj/en-us" } ] },
   "wsyu.edu.cn":{ _name:"新闻中心",
     www:[ { title:"学校要闻",

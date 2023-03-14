@@ -1622,6 +1622,9 @@
     "/gameapps/": [
         "TonyRL"
     ],
+    "/gamebase/news/:type?/:category?": [
+        "nczitzk"
+    ],
     "/gamer/gnn/:category?": [
         "Arracc"
     ],
@@ -2999,6 +3002,9 @@
     ],
     "/macfilos/blog": [
         "nczitzk"
+    ],
+    "/magazinelib/latest-magazine/:query?": [
+        "NavePnow"
     ],
     "/mangadex/:id/:lang?": [
         "vzz64"

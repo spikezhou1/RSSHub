@@ -6723,6 +6723,18 @@
       }
     ]
   },
+  "gamebase.com.tw": {
+    "_name": "遊戲基地 Gamebase",
+    "news": [
+      {
+        "title": "新聞",
+        "docs": "https://docs.rsshub.app/game.html#gamebase-xin-wen",
+        "source": [
+          "/news/:type"
+        ]
+      }
+    ]
+  },
   "gamer.com.tw": {
     "_name": "巴哈姆特電玩資訊站",
     "acg": [
@@ -12520,6 +12532,18 @@
           "/"
         ],
         "target": "/macfilos/blog"
+      }
+    ]
+  },
+  "magazinelib.com": {
+    "_name": "magazineLib",
+    ".": [
+      {
+        "title": "Latest Magazine",
+        "docs": "https://docs.rsshub.app/reading.html#magazinelib",
+        "source": [
+          "/"
+        ]
       }
     ]
   },
@@ -20335,7 +20359,7 @@
       {
         "title": "新闻",
         "docs": "https://docs.rsshub.app/traditional-media.html#hua-er-jie-ri-bao-the-wall-street-journal-wsj",
-        "souce": "/",
+        "source": "/",
         "target": "/wsj/zh-cn"
       }
     ],
@@ -20343,7 +20367,7 @@
       {
         "title": "新闻",
         "docs": "https://docs.rsshub.app/traditional-media.html#hua-er-jie-ri-bao-the-wall-street-journal-wsj",
-        "souce": "/",
+        "source": "/",
         "target": "/wsj/en-us"
       }
     ]
