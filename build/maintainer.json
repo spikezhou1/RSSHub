@@ -308,6 +308,9 @@
     "/ally/rail/:category?/:topic?": [
         "Rongronggg9"
     ],
+    "/amazon/awsblogs/:locale?": [
+        "HankChow"
+    ],
     "/amazon/kindle/software-updates": [
         "NavePnow"
     ],
@@ -1292,6 +1295,9 @@
     ],
     "/douban/group/:groupid/:type?": [
         "DIYgod"
+    ],
+    "/douban/list/:type?": [
+        "5upernova-heng"
     ],
     "/douban/jobs/:type": [
         "Fatpandac"
@@ -3523,6 +3529,9 @@
     "/oschina/user/:id": [
         "dxmpalb"
     ],
+    "/oshwhub/:sortType?": [
+        "tylinux"
+    ],
     "/oup/:name": [
         "Fatpandac"
     ],
@@ -4303,6 +4312,12 @@
     "/swjtu/jyzpxx": [
         "qizidog"
     ],
+    "/swjtu/jwc": [
+        "mobyw"
+    ],
+    "/swjtu/xg/:code?": [
+        "mobyw"
+    ],
     "/swpu/bgw/:code": [
         "CYTMWIA"
     ],
@@ -4421,6 +4436,9 @@
     "/test/:id": [
         "DIYgod",
         "NeverBehave"
+    ],
+    "/theatlantic/:category": [
+        "NavePnow"
     ],
     "/thecatcity/:term?": [
         "TonyRL"

@@ -1547,6 +1547,12 @@
           "/gp/help/customer/display.html"
         ]
       }
+    ],
+    "aws": [
+      {
+        "title": "AWS blogs",
+        "docs": "https://docs.rsshub.app/blogs.html#amazon"
+      }
     ]
   },
   "android.com": {
@@ -5252,6 +5258,14 @@
         "docs": "https://docs.rsshub.app/social-media.html#dou-ban",
         "source": "/group/:groupid",
         "target": "/douban/group/:groupid/elite"
+      },
+      {
+        "title": "榜单与集合",
+        "docs": "https://docs.rsshub.app/social-media.html#douban",
+        "source": [
+          "/subject_collection/:type"
+        ],
+        "target": "/douban/list/:type"
       }
     ],
     "jobs": [
@@ -15092,6 +15106,18 @@
       }
     ]
   },
+  "oshwhub.com": {
+    "_name": "立创开源硬件平台",
+    ".": [
+      {
+        "title": "开源广场",
+        "docs": "https://docs.rsshub.app/other.html#li-chuang-kai-yuan-ying-jian-ping-tai",
+        "source": [
+          "/explore"
+        ]
+      }
+    ]
+  },
   "oup.com": {
     "_name": "Oxford University Press",
     "academic": [
@@ -17988,6 +18014,31 @@
         ],
         "target": "/swjtu/jyzpxx"
       }
+    ],
+    "jwc": [
+      {
+        "title": "教务处通知",
+        "docs": "https://docs.rsshub.app/university.html#xi-nan-jiao-tong-da-xue",
+        "source": [
+          "/vatuu/WebAction",
+          "/"
+        ],
+        "target": "/swjtu/jwc"
+      }
+    ],
+    "xg": [
+      {
+        "title": "扬华素质网",
+        "docs": "https://docs.rsshub.app/university.html#xi-nan-jiao-tong-da-xue",
+        "source": [
+          "/web/Home/PushNewsList",
+          "/web/Home/NewsList",
+          "/web/Home/ColourfulCollegeNewsList",
+          "/web/Publicity/List",
+          "/"
+        ],
+        "target": "/swjtu/xg"
+      }
     ]
   },
   "swpu.edu.cn": {
@@ -18366,6 +18417,17 @@
           "/"
         ],
         "target": "/tesla/price"
+      }
+    ]
+  },
+  "theatlantic.com": {
+    "_name": "The Atlantic",
+    "www": [
+      {
+        "title": "新闻",
+        "docs": "https://docs.rsshub.app/traditional-media.html#the-atlantic",
+        "source": "/:category",
+        "target": "/theatlantic/:category"
       }
     ]
   },
