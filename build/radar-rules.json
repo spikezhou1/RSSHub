@@ -6534,6 +6534,19 @@
       }
     ]
   },
+  "fishshell.com": {
+    "_name": "fish shell",
+    ".": [
+      {
+        "title": "Release Notes",
+        "docs": "https://docs.rsshub.app/program-update.html#fish-shell",
+        "source": [
+          "/"
+        ],
+        "target": "/fishshell"
+      }
+    ]
+  },
   "fjksbm.com": {
     "_name": "福建考试报名网",
     ".": [
@@ -20814,6 +20827,18 @@
         "docs": "https://docs.rsshub.app/university.html#xi-an-jiao-tong-da-xue",
         "source": [
           "/*"
+        ]
+      }
+    ]
+  },
+  "xkb.com.cn": {
+    "_name": "新快报",
+    ".": [
+      {
+        "title": "新闻",
+        "docs": "https://docs.rsshub.app/traditional-media.html#xin-kuai-bao",
+        "source": [
+          "/"
         ]
       }
     ]
