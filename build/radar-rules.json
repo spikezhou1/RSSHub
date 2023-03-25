@@ -3839,6 +3839,14 @@
     "_name": "中国研究生招生信息网",
     "yz": [
       {
+        "title": "考研热点新闻",
+        "docs": "https://docs.rsshub.app/study.html#zhong-guo-yan-jiu-sheng-zhao-sheng-xin-xi-wang",
+        "source": [
+          "/"
+        ],
+        "target": "/chsi/hotnews"
+      },
+      {
         "title": "考研动态",
         "docs": "https://docs.rsshub.app/study.html#zhong-guo-yan-jiu-sheng-zhao-sheng-xin-xi-wang",
         "source": [
@@ -3847,12 +3855,12 @@
         "target": "/chsi/kydt"
       },
       {
-        "title": "考研热点新闻",
+        "title": "考研资讯",
         "docs": "https://docs.rsshub.app/study.html#zhong-guo-yan-jiu-sheng-zhao-sheng-xin-xi-wang",
         "source": [
-          "/"
+          "/kyzx/:type"
         ],
-        "target": "/chsi/hotnews"
+        "target": "/chsi/kyzx/:type"
       }
     ]
   },
@@ -8469,6 +8477,30 @@
           "/"
         ],
         "target": "/guokr/:channel"
+      }
+    ]
+  },
+  "gzdaily.cn": {
+    "_name": "广州日报",
+    ".": [
+      {
+        "title": "客户端",
+        "docs": "https://docs.rsshub.app/traditional-media.html#guang-zhou-ri-bao",
+        "source": [
+          "/"
+        ]
+      }
+    ]
+  },
+  "gz-cmc.com": {
+    "_name": "广州日报",
+    "huacheng": [
+      {
+        "title": "新花城（广州市融媒体中心）",
+        "docs": "https://docs.rsshub.app/traditional-media.html#guang-zhou-ri-bao",
+        "source": [
+          "/"
+        ]
       }
     ]
   },
@@ -14041,6 +14073,26 @@
       }
     ]
   },
+  "nhentai.net": {
+    "_name": "nhentai",
+    ".": [
+      {
+        "title": "分类筛选",
+        "docs": "https://docs.rsshub.app/anime.html#nhentai",
+        "source": [
+          "/:key/:keyword"
+        ],
+        "target": "/nhentai/:key/:keyword"
+      },
+      {
+        "title": "高级搜索",
+        "docs": "https://docs.rsshub.app/anime.html#nhentai",
+        "source": [
+          "/search"
+        ]
+      }
+    ]
+  },
   "nhk.or.jp": {
     "_name": "NHK",
     "www3": [
@@ -15924,6 +15976,32 @@
           "/"
         ],
         "target": "/qbittorrent/news"
+      }
+    ]
+  },
+  "qdaily.com": {
+    "_name": "好奇心日报",
+    ".": [
+      {
+        "title": "标签",
+        "docs": "https://docs.rsshub.app/new-media.html#hao-qi-xin-ri-bao",
+        "source": [
+          "/tags/:id"
+        ]
+      },
+      {
+        "title": "栏目",
+        "docs": "https://docs.rsshub.app/new-media.html#hao-qi-xin-ri-bao",
+        "source": [
+          "/special_columns/:id"
+        ]
+      },
+      {
+        "title": "分类",
+        "docs": "https://docs.rsshub.app/new-media.html#hao-qi-xin-ri-bao",
+        "source": [
+          "/categories/:id"
+        ]
       }
     ]
   },
@@ -20136,6 +20214,19 @@
           "/"
         ],
         "target": "/wangqiutiyu/anchor/:id"
+      }
+    ]
+  },
+  "wanqu.co": {
+    "_name": "湾区日报",
+    ".": [
+      {
+        "title": "最新推荐",
+        "docs": "https://docs.rsshub.app/new-media.html#wan-qu-ri-bao",
+        "source": [
+          "/"
+        ],
+        "target": "/wanqu/news"
       }
     ]
   },
