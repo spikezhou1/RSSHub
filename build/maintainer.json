@@ -783,8 +783,13 @@
     "/caixin/:column/:category": [
         "idealclover"
     ],
-    "/cankaoxiaoxi/news/:category": [
-        "yuxinliu-alex"
+    "/cankaoxiaoxi/column/:id?": [
+        "yuxinliu-alex",
+        "nczitzk"
+    ],
+    "/cankaoxiaoxi/:id?": [
+        "yuxinliu-alex",
+        "nczitzk"
     ],
     "/cartoonmad/comic/:id": [
         "KellyHwong"
@@ -3112,6 +3117,18 @@
     ],
     "/mobilism/portal/:type/:fulltext?": [
         "nitezs"
+    ],
+    "/modelscope/community": [
+        "TonyRL"
+    ],
+    "/modelscope/datasets": [
+        "TonyRL"
+    ],
+    "/modelscope/models": [
+        "TonyRL"
+    ],
+    "/modelscope/studios": [
+        "TonyRL"
     ],
     "/mohw/clarification": [
         "nczitzk"
