@@ -1701,6 +1701,9 @@
     "/gelonghui/user/:id": [
         "nczitzk"
     ],
+    "/geocaching/blogs": [
+        "HankChow"
+    ],
     "/getdr/": [
         "nczitzk"
     ],
@@ -1743,6 +1746,9 @@
     "/github/issue/:user/:repo/:state?/:labels?": [
         "HenryQW",
         "AndreyMZ"
+    ],
+    "/github/notifications": [
+        "zhzy0077"
     ],
     "/github/pull/:user/:repo/:state?": [
         "hashman",
@@ -2953,6 +2959,9 @@
     ],
     "/line/today/:edition?/:tab?": [
         "nczitzk"
+    ],
+    "/line/today/:edition/publisher/:id": [
+        "TonyRL"
     ],
     "/linkedin/cn/jobs/:keywords?": [
         "bigfei"
@@ -4882,6 +4891,9 @@
     ],
     "/ustb/yjsy/news/wenfa": [
         "DA1Y1"
+    ],
+    "/ustb/yzxc/tzgg": [
+        "yanbot-team"
     ],
     "/ustc/eeis/:type?": [
         "jasongzy"
