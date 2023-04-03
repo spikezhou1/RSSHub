@@ -508,6 +508,9 @@
     "/bendibao/news/:city": [
         "nczitzk"
     ],
+    "/bgmlist/onair/:lang?": [
+        "x2cf"
+    ],
     "/bigquant/collections": [
         "nczitzk"
     ],
@@ -1898,6 +1901,9 @@
     "/gov/immiau/news": [
         "liu233w"
     ],
+    "/gov/jinan/healthcommission/medical_exam_notice": [
+        "tzjyxb"
+    ],
     "/gov/mee/ywdt?": [
         "liuxsdev"
     ],
@@ -2274,6 +2280,9 @@
         "hoilc",
         "Fatpandac",
         "nczitzk"
+    ],
+    "/hk01/latest": [
+        "5upernova-heng"
     ],
     "/hk01/issue/:id": [
         "hoilc",
