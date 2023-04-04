@@ -7767,7 +7767,7 @@
         "source": [
           "/*"
         ],
-        "target": "/sichuan/deyang/govpulicinfo/:countyName"
+        "target": "/sichuan/deyang/govpublicinfo/:countyName"
       }
     ]
   },
@@ -8081,6 +8081,19 @@
         "source": [
           "/7204/7246/"
         ]
+      }
+    ]
+  },
+  "mztoday.gov.cn": {
+    "_name": "德阳市人民政府",
+    "www": [
+      {
+        "title": "今日绵竹",
+        "docs": "https://docs.rsshub.app/government.html#de-yang-shi-ren-min-zheng-fu",
+        "source": [
+          "/*"
+        ],
+        "target": "/gov/sichuan/deyang/mztoday"
       }
     ]
   },
