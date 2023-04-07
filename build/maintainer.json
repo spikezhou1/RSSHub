@@ -1673,6 +1673,12 @@
     "/fosshub/:id": [
         "nczitzk"
     ],
+    "/freecomputerbooks/": [
+        "cubroe"
+    ],
+    "/freecomputerbooks/:category": [
+        "cubroe"
+    ],
     "/freewechat/profile/:id": [
         "TonyRL"
     ],
@@ -4146,6 +4152,9 @@
     "/saraba1st/thread/:tid": [
         "zengxs"
     ],
+    "/sass/gs/:type": [
+        "yanbot-team"
+    ],
     "/science/cover": [
         "y9c",
         "TonyRL"
@@ -4455,6 +4464,9 @@
     ],
     "/stcn/:id?": [
         "nczitzk"
+    ],
+    "/stdaily/digitalpaper": [
+        "lyqluis"
     ],
     "/stheadline/std/realtime/:category*": [
         "TonyRL"
