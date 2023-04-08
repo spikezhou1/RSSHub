@@ -166,6 +166,24 @@
     "/52hrtt/:area?/:type?": [
         "nczitzk"
     ],
+    "/6park/:id?": [
+        "nczitzk"
+    ],
+    "/6park/:id/gold": [
+        "nczitzk"
+    ],
+    "/6park/:id/keywords/:keyword?": [
+        "nczitzk"
+    ],
+    "/6park/news/:site?/:id?": [
+        "nczitzk"
+    ],
+    "/6park/news/newspark/gold": [
+        "nczitzk"
+    ],
+    "/6park/news/newspark/keywords/:keyword?": [
+        "nczitzk"
+    ],
     "/6v123/latestMovies": [
         "tc9011"
     ],
@@ -5140,6 +5158,9 @@
     "/wechat/mp/msgalbum/:biz/:aid": [
         "MisteryMonster"
     ],
+    "/wechat/sogou/:id": [
+        "NavePnow"
+    ],
     "/wechat/tgchannel/:id/:mpName?/:searchQueryType?": [
         "LogicJake",
         "Rongronggg9"
@@ -6811,7 +6832,6 @@
     "/semiconductors/latest-news": [],
     "/voa/day-photos": [],
     "/voa/:language/:channel?": [],
-    "/6park/:id?/:type?/:keyword?": [],
     "/gamegrape/:id?": [],
     "/chsi/zszcgd/:category?": [],
     "/hkcnews/news/:category?": [],
