@@ -2019,7 +2019,8 @@
         "TonyRL"
     ],
     "/gov/stats/:path+": [
-        "bigfei"
+        "bigfei",
+        "nczitzk"
     ],
     "/gov/zhengce/govall/:advance?": [
         "ciaranchen"
@@ -2193,6 +2194,12 @@
     "/guokr/:channel": [
         "DHPO",
         "hoilc"
+    ],
+    "/gxmzu/aitzgg": [
+        "real-jiakai"
+    ],
+    "/gxmzu/yjszsgg": [
+        "real-jiakai"
     ],
     "/gz-cmc/:site/:channel?": [
         "TimWu007"
@@ -2571,6 +2578,9 @@
     ],
     "/iqiyi/user/video/:uid": [
         "talengu"
+    ],
+    "/iqnew/latest": [
+        "nczitzk"
     ],
     "/iresearch/report": [
         "brilon",
@@ -3813,6 +3823,15 @@
     "/pincong/topic/:topic": [
         "zphw"
     ],
+    "/pingwest/status": [
+        "sanmmm"
+    ],
+    "/pingwest/tag/:tag/:type/:option?": [
+        "sanmmm"
+    ],
+    "/pingwest/user/:uid/:type?/:option?": [
+        "sanmmm"
+    ],
     "/pixabay/search/:q/:order?": [
         "TonyRL"
     ],
@@ -3958,6 +3977,9 @@
         "emdoe",
         "SivaGao",
         "HenryQW"
+    ],
+    "/qdu/jwc": [
+        "abc1763613206"
     ],
     "/qianp/news/:path*": [
         "TonyRL"
@@ -6288,9 +6310,6 @@
     "/leboncoin/ad/:query": [],
     "/dhl/:id": [],
     "/japanpost/track/:reqCode/:locale?": [],
-    "/pingwest/status": [],
-    "/pingwest/tag/:tag/:type": [],
-    "/pingwest/user/:uid/:type?": [],
     "/hanime/video": [],
     "/soul/:id": [],
     "/soul/posts/hot/:pid*": [],
@@ -6669,8 +6688,6 @@
     "/nasa/apod": [],
     "/nasa/apod-ncku": [],
     "/nasa/apod-cn": [],
-    "/iqshw/latest": [],
-    "/3k8/latest": [],
     "/justrun": [],
     "/fjnews/:city/:limit": [],
     "/fjnews/jjnews": [],

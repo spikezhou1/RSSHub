@@ -8481,8 +8481,8 @@
     "_name": "国家统计局",
     "www": [
       {
-        "title": "统计数据 > 最新发布",
-        "docs": "https://docs.rsshub.app/government.html#guo-jia-tong-ji-ju-tong-ji-shu-ju-zui-xin-fa-bu",
+        "title": "通用",
+        "docs": "https://docs.rsshub.app/government.html#guo-jia-tong-ji-ju-shu-ju-tong-yong",
         "source": [
           "/*"
         ]
@@ -8874,6 +8874,31 @@
           "/"
         ],
         "target": "/guokr/:channel"
+      }
+    ]
+  },
+  "gxmzu.edu.cn": {
+    "_name": "广西民族大学",
+    "ai": [
+      {
+        "title": "人工智能学院通知公告",
+        "docs": "https://docs.rsshub.app/university.html#guang-xi-min-zu-da-xue-ren-gong-zhi-neng-xue-yuan-tong-zhi-gong-gao",
+        "source": [
+          "/index/tzgg.htm",
+          "/"
+        ],
+        "target": "/gxmzu/aitzgg"
+      }
+    ],
+    "yjs": [
+      {
+        "title": "研究生院招生公告",
+        "docs": "https://docs.rsshub.app/university.html#guang-xi-min-zu-da-xue-yan-jiu-sheng-yuan-zhao-sheng-gong-gao",
+        "source": [
+          "/tzgg/zsgg.htm",
+          "/"
+        ],
+        "target": "/gxmzu/yjszsgg"
       }
     ]
   },
@@ -10390,6 +10415,20 @@
           "/u/:uid/*"
         ],
         "target": "/iqiyi/user/video/:uid"
+      }
+    ]
+  },
+  "iqnew.com": {
+    "_name": "爱 Q 生活网",
+    ".": [
+      {
+        "title": "最近更新",
+        "docs": "https://docs.rsshub.app/others.html#ai-q-sheng-huo-wang",
+        "source": [
+          "/post/new_100/",
+          "/"
+        ],
+        "target": "/iqnew/latest"
       }
     ]
   },
@@ -15166,7 +15205,7 @@
     "lib": [
       {
         "title": "图书馆通知公告",
-        "docs": "https://docs.rsshub.app/university.html#nan-jing-xiao-zhuang-xue-yuan-guan-wang-tong-zhi-gong-gao",
+        "docs": "https://docs.rsshub.app/university.html#nan-jing-xiao-zhuang-xue-yuan-tu-shu-guan-tong-zhi-gong-gao",
         "source": [
           "/pxyhd/list.htm",
           "/"
@@ -15177,7 +15216,7 @@
     "www": [
       {
         "title": "通知公告",
-        "docs": "https://docs.rsshub.app/university.html#nan-jing-xiao-zhuang-xue-yuan-tu-shu-guan-tong-zhi-gong-gao",
+        "docs": "https://docs.rsshub.app/university.html#nan-jing-xiao-zhuang-xue-yuan-guan-wang-tong-zhi-gong-gao",
         "source": [
           "/89/list.htm",
           "/"
@@ -16101,6 +16140,38 @@
       }
     ]
   },
+  "pingwest.com": {
+    "_name": "品玩",
+    ".": [
+      {
+        "title": "实时要闻",
+        "docs": "https://docs.rsshub.app/new-media.html#ping-wan",
+        "source": [
+          "/status",
+          "/"
+        ],
+        "target": "/pingwest/status"
+      },
+      {
+        "title": "话题动态",
+        "docs": "https://docs.rsshub.app/new-media.html#ping-wan",
+        "source": [
+          "/tag/:tag",
+          "/"
+        ],
+        "target": "/pingwest/tag/:tag/1/fulltext"
+      },
+      {
+        "title": "用户",
+        "docs": "https://docs.rsshub.app/new-media.html#ping-wan",
+        "source": [
+          "/user/:uid/:type",
+          "/"
+        ],
+        "target": "/pingwest/user/:uid/:type"
+      }
+    ]
+  },
   "pixabay.com": {
     "_name": "Pixabay",
     ".": [
@@ -16599,6 +16670,20 @@
         "source": [
           "/categories/:id"
         ]
+      }
+    ]
+  },
+  "qdu.edu.cn": {
+    "_name": "青岛大学",
+    "jwc": [
+      {
+        "title": "教务处通知",
+        "docs": "https://docs.rsshub.app/university.html#qing-dao-da-xue",
+        "source": [
+          "/jwtz.htm",
+          "/"
+        ],
+        "target": "/qdu/jwc"
       }
     ]
   },
