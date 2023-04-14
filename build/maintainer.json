@@ -534,6 +534,9 @@
     "/barronschina/:id?": [
         "nczitzk"
     ],
+    "/bast/:path+": [
+        "nczitzk"
+    ],
     "/bbcnewslabs/news": [
         "elxy"
     ],
@@ -829,6 +832,9 @@
     ],
     "/caixin/:column/:category": [
         "idealclover"
+    ],
+    "/camchina/:id?": [
+        "nczitzk"
     ],
     "/cankaoxiaoxi/column/:id?": [
         "yuxinliu-alex",
@@ -1155,6 +1161,9 @@
     ],
     "/csdn/blog": [
         "Jkker"
+    ],
+    "/cste/:id?": [
+        "nczitzk"
     ],
     "/csu/career": [
         "TonyRL"
