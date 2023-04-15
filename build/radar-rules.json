@@ -1984,6 +1984,16 @@
         "target": "/arcteryx/new-arrivals/:country/:gender"
       }
     ],
+    "outlet": [
+      {
+        "title": "Outlet",
+        "docs": "https://docs.rsshub.app/shopping.html#arcteryx",
+        "source": [
+          "/:country/en/c/:gender"
+        ],
+        "target": "/arcteryx/outlet/:country/:gender"
+      }
+    ],
     "regear": [
       {
         "title": "Regear 新发布",
@@ -6024,6 +6034,15 @@
         "docs": "https://docs.rsshub.app/finance.html#dong-fang-cai-fu",
         "source": [
           "/"
+        ]
+      }
+    ],
+    "so": [
+      {
+        "title": "搜索",
+        "docs": "https://docs.rsshub.app/finance.html#dong-fang-cai-fu",
+        "source": [
+          "/News/s"
         ]
       }
     ]
@@ -15002,6 +15021,20 @@
       }
     ]
   },
+  "njglyy.com": {
+    "_name": "南京鼓楼医院",
+    ".": [
+      {
+        "title": "员工版教育培训",
+        "docs": "https://docs.rsshub.app/university.html#nan-jing-gu-lou-yi-yuan-yuan-gong-ban-jiao-yu-pei-xun",
+        "source": [
+          "/ygb/jypx/jypx.aspx",
+          "/"
+        ],
+        "target": "/njglyy/ygbjypx"
+      }
+    ]
+  },
   "njit.edu.cn": {
     "_name": "南京工程学院",
     "jwc": [
@@ -15175,6 +15208,20 @@
           "/"
         ],
         "target": "/nju/zcc"
+      }
+    ]
+  },
+  "njucm.edu.cn": {
+    "_name": "南京中医药大学",
+    "lib": [
+      {
+        "title": "研究生院博士招生",
+        "docs": "https://docs.rsshub.app/university.html#nan-jing-zhong-yi-yao-da-xue-yan-jiu-sheng-yuan-bo-shi-zhao-sheng",
+        "source": [
+          "/2899/list.htm",
+          "/"
+        ],
+        "target": "/njucm/grabszs"
       }
     ]
   },
@@ -19577,6 +19624,97 @@
         "docs": "https://docs.rsshub.app/new-media.html#duan-chuan-mei",
         "source": "/author/:type",
         "target": "/theinitium/author/:type"
+      }
+    ]
+  },
+  "themoviedb.org": {
+    "_name": "The Movie Database",
+    ".": [
+      {
+        "title": "Collection",
+        "docs": "https://docs.rsshub.app/multimedia.html#the-movie-database",
+        "source": [
+          "/collection/:name"
+        ]
+      },
+      {
+        "title": "Popular Movies",
+        "docs": "https://docs.rsshub.app/multimedia.html#the-movie-database",
+        "source": [
+          "/movie"
+        ],
+        "target": "/themoviedb/trending/movie/week"
+      },
+      {
+        "title": "Popular TV Shows",
+        "docs": "https://docs.rsshub.app/multimedia.html#the-movie-database",
+        "source": [
+          "/tv"
+        ],
+        "target": "/themoviedb/trending/tv/week"
+      },
+      {
+        "title": "TV Show Seasons",
+        "docs": "https://docs.rsshub.app/multimedia.html#the-movie-database",
+        "source": [
+          "/tv/:id/seasons",
+          "/tv/:id"
+        ]
+      },
+      {
+        "title": "TV Show Episodes",
+        "docs": "https://docs.rsshub.app/multimedia.html#the-movie-database",
+        "source": [
+          "/tv/:id/season/:seasonNumber"
+        ]
+      },
+      {
+        "title": "TV Shows Airing Today",
+        "docs": "https://docs.rsshub.app/multimedia.html#the-movie-database",
+        "source": [
+          "/tv/airing-today"
+        ],
+        "target": "/themoviedb/tv/airing-today"
+      },
+      {
+        "title": "Currently Airing TV Shows",
+        "docs": "https://docs.rsshub.app/multimedia.html#the-movie-database",
+        "source": [
+          "/tv/on-the-air"
+        ],
+        "target": "/themoviedb/tv/on-the-air"
+      },
+      {
+        "title": "Top Rated TV Shows",
+        "docs": "https://docs.rsshub.app/multimedia.html#the-movie-database",
+        "source": [
+          "/tv/top-rated"
+        ],
+        "target": "/themoviedb/tv/top-rated"
+      },
+      {
+        "title": "Now Playing Movies",
+        "docs": "https://docs.rsshub.app/multimedia.html#the-movie-database",
+        "source": [
+          "/movie/now-playing"
+        ],
+        "target": "/themoviedb/movie/now-playing"
+      },
+      {
+        "title": "Upcoming Movies",
+        "docs": "https://docs.rsshub.app/multimedia.html#the-movie-database",
+        "source": [
+          "/movie/upcoming"
+        ],
+        "target": "/themoviedb/movie/upcoming"
+      },
+      {
+        "title": "Top Rated Movies",
+        "docs": "https://docs.rsshub.app/multimedia.html#the-movie-database",
+        "source": [
+          "/movie/top-rated"
+        ],
+        "target": "/themoviedb/movie/top-rated"
       }
     ]
   },

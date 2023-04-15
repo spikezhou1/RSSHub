@@ -407,6 +407,9 @@
     "/arcteryx/new-arrivals/:country/:gender": [
         "NavePnow"
     ],
+    "/arcteryx/outlet/:country/:gender": [
+        "NavePnow"
+    ],
     "/arcteryx/regear/new-arrivals": [
         "NavePnow"
     ],
@@ -1533,6 +1536,9 @@
     ],
     "/eastmoney/ttjj/user/:uid": [
         "zidekuls"
+    ],
+    "/eastmoney/search/:keyword": [
+        "drgnchan"
     ],
     "/ecnu/acm/contest/:category?": [
         "a180285"
@@ -3458,6 +3464,9 @@
     "/nippon/:category?": [
         "laampui"
     ],
+    "/njglyy/ygbjypx": [
+        "real-jiakai"
+    ],
     "/njit/tzgg": [
         "zefengdaguo"
     ],
@@ -3508,6 +3517,9 @@
     ],
     "/nju/zcc": [
         "ret-1"
+    ],
+    "/njucm/grabszs": [
+        "real-jiakai"
     ],
     "/njupt/jwc/:type?": [
         "shaoye"
@@ -4722,6 +4734,21 @@
     ],
     "/theinitium/tags/:type/:language?": [
         "AgFlore"
+    ],
+    "/themoviedb/collection/:id/:lang?": [
+        "x2cf"
+    ],
+    "/themoviedb/trending/:mediaType/:timeWindow/:lang?": [
+        "x2cf"
+    ],
+    "/themoviedb/tv/:id/seasons/:lang?": [
+        "x2cf"
+    ],
+    "/themoviedb/tv/:id/seasons/:seasonNumber/episodes/:lang?": [
+        "x2cf"
+    ],
+    "/themoviedb/:mediaType/:sheet/:lang?": [
+        "x2cf"
     ],
     "/thenewslens/author/:id/:sort?": [
         "nczitzk"
