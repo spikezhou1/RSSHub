@@ -5327,6 +5327,17 @@
         "title": "产品打折信息",
         "docs": "https://docs.rsshub.app/anime.html#dlsite"
       }
+    ],
+    "ci-en": [
+      {
+        "title": "Ci-en 创作者文章",
+        "docs": "https://docs.rsshub.app/anime.html#dlsite",
+        "source": [
+          "/creator/:id/article/843558",
+          "/"
+        ],
+        "target": "/dlsite/ci-en/:id/article"
+      }
     ]
   },
   "dmzj.com": {
@@ -12669,6 +12680,20 @@
         "docs": "https://docs.rsshub.app/shopping.html#lativ",
         "source": "/Detail/:id",
         "target": "/lativ/:id"
+      }
+    ]
+  },
+  "layer3.xyz": {
+    "_name": "Layer3",
+    ".": [
+      {
+        "title": "Quests",
+        "docs": "https://docs.rsshub.app/programming.html#layer3-quests",
+        "source": [
+          "/quests/new",
+          "/"
+        ],
+        "target": "/layer3/quests"
       }
     ]
   },

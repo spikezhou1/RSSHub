@@ -1320,6 +1320,9 @@
     "/dlsite/campaign/:type/:free?": [
         "cssxsh"
     ],
+    "/dlsite/ci-en/:id/article": [
+        "nczitzk"
+    ],
     "/dlsite/new/:type": [
         "cssxsh"
     ],
@@ -3037,6 +3040,9 @@
     ],
     "/lativ/:id": [
         "Fatpandac"
+    ],
+    "/layer3/quests": [
+        "nczitzk"
     ],
     "/layoffs/": [
         "BrandNewLifeJackie26"
