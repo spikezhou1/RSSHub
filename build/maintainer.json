@@ -410,6 +410,12 @@
     "/appstore/gofans": [
         "HenryQW"
     ],
+    "/aqara/community/:id?/:keyword?": [
+        "nczitzk"
+    ],
+    "/aqara/news": [
+        "nczitzk"
+    ],
     "/arcteryx/new-arrivals/:country/:gender": [
         "NavePnow"
     ],
@@ -1573,8 +1579,11 @@
     "/economist/:endpoint": [
         "ImSingee"
     ],
-    "/ecust-jxjy/ecust-jxjy/news": [
+    "/ecust/jxjy/news": [
         "jialinghui"
+    ],
+    "/ecust/yjs": [
+        "shengmaosu"
     ],
     "/ehentai/favorites/:favcat?/:order?/:page?/:routeParams?": [
         "yindaheng98",
@@ -6571,7 +6580,6 @@
     "/cauele": [],
     "/moxingfans": [],
     "/chiphell/forum/:forumId?": [],
-    "/ecustyjs": [],
     "/tjuyjs": [],
     "/upcyjs": [],
     "/outyjs": [],
